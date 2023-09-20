@@ -12,3 +12,5 @@
 #         if i.isalnum():
                  
   
+a='adithya'
+print(a[::-1])
