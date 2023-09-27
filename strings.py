@@ -19,5 +19,5 @@
 #     print('substring ')
 # else:
 #     print('not a substring')    
-a='lOREM IPSUM IS A DUMY TEXT.lOREM IPSUM IS A DUMY TEXT'
-print(a.capitalize())
+# a='lOREM IPSUM IS A DUMY TEXT.lOREM IPSUM IS A DUMY TEXT'
+# print(a.capitalize())
