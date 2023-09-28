@@ -64,13 +64,17 @@
 #     print('senior')        
 
 # 4
-# bmi=int(input('enter ur weight'))
+# w=int(input('enter ur weight'))
+# h=int(input('enter ur height'))
+# bmi=w/h
 # if bmi<=18.5:
 #     print('underweight')
 # elif bmi<=24.9:
 #     print('normal weight')
 # elif bmi<=29.9:
-#     print('overweight')        
+#     print('overweight')    
+# else:
+#     print('obesity')        
 
 
 # 6
@@ -85,3 +89,67 @@
 #     print('c is larger')
 # else:
 #     print('both are equal')            
+
+# 7
+# a=int(input('enter any number'))
+# if a==1:
+#     print('sunday')
+# elif a==2:
+#     print('monday')    
+# elif a==3:
+#     print('tuesday')    
+# elif a==4:
+#     print('wednesday')    
+# elif a==5:
+#     print('thursday')    
+# elif a==6:
+#     print('friday')  
+# elif a==7:
+#     print('saturday')                      
+
+# 9
+# a=str((input('enter color')))
+# b='red'
+# c='green'
+# d='yellow'
+# if a in c :
+#     print('go')
+# elif a in b:
+#     print('stop')
+# elif a in d:
+#     print('proceed with caution')        
+
+# 10
+# a=int(input('enter time'))
+# if a>=5 and a<=11:
+#     print('good morning')
+# elif a>=12 and a<=16:
+#     print('good afternoon')
+# elif a>=17 and a<=20:
+#     print('good evening')
+# elif a>=20 and a<=23.59 :
+#     print('good night')
+# elif a<=5:
+#     print('good night')    
+# else:
+#     print('invalid')    
+
+# 2
+# num1=int(input('enter first number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#   a=num1+num2
+#   print(a)
+# elif op=='-':
+#   b=num1-num2
+#   print(b)   
+# elif op=='*':
+#   c=num1*num2
+#   print(c)   
+# elif op=='/':
+#   d=num1/num2
+#   print(d)   
+  
+  
+ 

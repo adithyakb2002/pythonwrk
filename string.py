@@ -12,5 +12,5 @@
 #         if i.isalnum():
                  
   
-a='adithya'
-print(a[::-1])
+# a='adithya'
+# print(a[::-1])
