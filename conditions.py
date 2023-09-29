@@ -151,5 +151,53 @@
 #   d=num1/num2
 #   print(d)   
   
-  
- 
+
+# 8
+a=input('enter a single character')
+print('digit',a.isdigit())
+print(a.isalpha())
+print(a.isalnum())
+if a.isupper():
+    print(a,'is uppercase')
+elif a.islower():
+    print(a,'is lowercase')    
+
+# SECTION 3
+# a=int(input('enter ur purchase amount'))
+# if a>=100:
+#     discount=(10/100)*a
+#     print(discount)
+#     print('amount=',a-discount)
+# elif a>=50:
+#     discount=(5/100)*a
+#     print(discount)
+#     print('amount=',a-discount)   
+# else:
+#     print(a)    
+
+# 4
+# a=5
+# b=int(input('enter number'))
+# if a<b:
+#     print('too high')
+# elif a>b:
+#     print('too low')
+# elif a==b:
+#     print('correct')       
+
+# 3
+# temp=int(input('enter temparature'))
+# unit=str(input('enter unit'))
+# if unit=='celsius':
+#     celsius=5/9*(temp-32)
+#     print(celsius)
+# elif unit=='fahrenheit':
+#     fahrenheit=32+(temp*1.8)    
+#     print(fahrenheit)
+
+# 2
+# a=int(input('enter a year'))
+# if a in range(0,3000,4):
+#     print('it is a leap year')
+# else:
+#     print('it is not a leap year')    
