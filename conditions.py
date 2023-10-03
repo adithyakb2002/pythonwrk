@@ -153,14 +153,14 @@
   
 
 # 8
-a=input('enter a single character')
-print('digit',a.isdigit())
-print(a.isalpha())
-print(a.isalnum())
-if a.isupper():
-    print(a,'is uppercase')
-elif a.islower():
-    print(a,'is lowercase')    
+# a=input('enter a single character')
+# print('digit',a.isdigit())
+# print(a.isalpha())
+# print(a.isalnum())
+# if a.isupper():
+#     print(a,'is uppercase')
+# elif a.islower():
+#     print(a,'is lowercase')    
 
 # SECTION 3
 # a=int(input('enter ur purchase amount'))
