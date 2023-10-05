@@ -18,6 +18,9 @@
 # b.append(3)
 # b.append(4)
 # print(b)
-a=[2,4,3,1]
-b=a[3],a[0],a[2],a[1]
-print(b)
+# a=[2,4,3,1]
+# b=a[3],a[0],a[2],a[1]
+# print(b)
+c=
+for i in range(5):
+    print(i*'1')
