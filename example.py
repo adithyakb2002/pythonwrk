@@ -14,14 +14,14 @@
 #         b.append(2)
 #         print(b)  
 
-a=[2,4,7,6]
-target=10
-b=[]
-for i in range(0,len(a)):
-    for j in range(i+1,len(a)):
-        if a[i]+a[j]==target:
-            b.append(i)
-            b.append(j)
-            print(b)
+# a=[2,4,7,6]
+# target=10
+# b=[]
+# for i in range(0,len(a)):
+#     for j in range(i+1,len(a)):
+#         if a[i]+a[j]==target:
+#             b.append(i)
+#             b.append(j)
+#             print(b)
 
 
