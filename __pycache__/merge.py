@@ -6,9 +6,9 @@ print(list3)
 
 
 
-sum1=(root[0]+root[1])
-sum2=(root[0]+root[2])
-if targetsum==sum1:
-    print('true')
-else:
-    print('there is no root to leaf path with sum=',10)    
+# sum1=(root[0]+root[1])
+# sum2=(root[0]+root[2])
+# if targetsum==sum1:
+#     print('true')
+# else:
+#     print('there is no root to leaf path with sum=',10)    
