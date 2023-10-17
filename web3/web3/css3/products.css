@@ -1,0 +1,147 @@
+.navs{
+    padding-left: 40%;
+    color: black;
+}
+.customers{
+    font-size: 17px;
+    font-weight: 500;
+}
+.actives{
+    font-size: 17px;
+    font-weight: 500;
+    color: grey;
+}
+.navslogo{
+    padding-left: 70%;
+}
+.nav1 a:hover{
+    color: grey;
+}
+a.nav2{
+    color: black;
+    text-decoration: none;
+
+}
+a.home{
+    color: grey; 
+    text-decoration: none;
+
+  }
+  a.customers{
+    color: black;
+    text-decoration: none;
+
+  }
+  .navbar{
+    background-color: rgb(250, 252, 254);
+  }
+  
+
+.font{
+    font-size: 18px;
+}
+.size{
+    font-size: 15px;
+    color: grey;
+}
+.star{
+    font-size: 12px;
+}
+.page2{
+    text-align: center;
+    padding-top: 30px;
+}
+.check{
+    font-size: 14px;
+    color: grey;
+}
+.our{
+    font-size: 25px;
+    font-weight: 800;
+}
+a:hover {
+    color: rgb(125, 33, 33);
+  }
+.enter{
+    padding-left: 40%;
+}
+.footer{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footersection{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.footers{
+    color:white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.design{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid white; 
+}
+.designs{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;  
+}
+.faceicon{
+    color: white;
+   }
+   .gg{
+       text-align: center;
+   }
+.page3{
+    background-image: url(../img3/products-page-heading.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+.ours{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+.cheks{
+    color: white;
+    font-size: 15px;
+}
+.navs{
+    padding-left: 40%;
+}
+.customers{
+    font-size: 17px;
+    font-weight: 500;
+}
+.actives{
+    font-size: 17px;
+    font-weight: 500;
+    color: grey;
+}
+.navslogo{
+    padding-left: 70%;
+}
+a:hover {
+    color: yellow;
+  }
+  .page4{
+    text-align: center;
+    padding-bottom: 6%;
+    padding-top: 6%;
+  }
+  .templatemo{
+    text-decoration: none;
+    color: cadetblue;
+  }
+  .templatemo:hover{
+    color: chocolate;
+  }
+  

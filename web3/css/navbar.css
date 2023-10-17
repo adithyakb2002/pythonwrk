@@ -1,0 +1,60 @@
+.second{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15%;
+}
+.first{
+    font-size: 100px;
+    font-weight: 700;
+margin-left: 15%;
+}
+.left{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    padding-left: 40px;
+    padding-right:40px;
+    }
+ .right{
+        background-color: black;
+        padding: 15px;
+        color: white;
+        padding-right: 40px;
+        padding-left: 40px;
+        }
+        .facebook{
+            border-radius:70% ;
+            color:white;
+            background-color: black;
+            padding: 19px;
+        }
+        .instagram{
+            border-radius:60% ;
+            color:white;
+            background-color: black;
+            padding: 15px;
+        }
+        .youtube{
+            border-radius:60% ;
+            color:white;
+            background-color: black;
+            padding: 15px;
+        }
+            
+        .purchase{
+            padding: 10px;
+            color: white;
+        }
+        .purchase:hover{
+            background-color: black;
+        }
+        .vertical{
+            border-left: 1px solid black;
+            height: 100px;
+        }
+        .ipsum{
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+           
+        }
+        linear-gradient(180deg, rgb(75, 60, 60), 5%,aliceblue, 50%, rgb(94, 81, 81))

@@ -1,0 +1,153 @@
+.first{
+    font-size: 100px;
+    font-weight: 700;
+margin-left: 15%;
+}
+.second{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15%;
+
+}
+.purchase{
+    margin-left: 15%;
+
+}
+.group{
+    padding-right:20px;
+}
+.third.third{
+    font-size: 30px;
+    font-weight: 600; 
+}
+.four{
+    font-size: 40px;
+    font-weight: 500;
+}   
+.five{
+    background-color: black;
+}
+.facebook{
+    border-radius:70% ;
+    color:white;
+    background-color: black;
+    padding: 19px;
+}
+.instagram{
+    border-radius:60% ;
+    color:white;
+    background-color: black;
+    padding: 15px;
+}
+.youtube{
+    border-radius:60% ;
+    color:white;
+    background-color: black;
+    padding: 15px;
+}
+.purchase{
+    padding: 10px;
+    color: white;
+}
+.purchase:hover{
+    background-color: black;
+}
+.left{
+background-color: black;
+padding: 15px;
+color: white;
+padding-left: 40px;
+padding-right:40px;
+}
+.right{
+background-color: black;
+padding: 15px;
+color: white;
+padding-right: 40px;
+padding-left: 40px;
+}
+.Brief{
+    text-align:center;
+    font-size: 25px;
+}
+.Timeline{
+    font-size: 40px;
+    text-align: center;
+}
+.circle{
+    border-radius: 12px;
+    color:rgb(174, 178, 182);
+}
+.border{
+    border: 1px solid balck;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.sec{
+    padding-right:5%;
+    padding-bottom: 15%;
+
+}
+.message{
+    padding: 40px;
+}
+.light{
+    border-radius: 90px;
+    padding: 20px;
+    color: rgb(176, 179, 182);
+    /* margin-left: -50%; */
+}
+.light:hover{
+    background-color: black;
+    color: white;
+}
+.navs{
+    padding-left: 7%;
+}
+.ipsum{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+   
+}
+.vertical{
+    border-left: 1px solid black;
+    height: 100px;
+}
+.nav-link{
+    color: black;
+}
+.dk{
+    position: absolute;
+    top:1170px;
+    z-index: -1;
+}
+.sk{
+    /* position: absolute; */
+    top:1170px;
+    z-index: 1;
+    padding-left: 20%;
+}
+@media(max-width:1025)and(min-width:707)
+{
+    .first{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:917)and(min-width:600)
+{
+    .media{
+        padding-left: 20px;
+    }
+}
+@media(max-width:1466)and(min-width:900)
+{
+    .second{
+       position: absolute;
+    }
+}
+@media(max-width:1314)and(min-width:1260)
+{
+    .five{
+       position: absolute;
+    }
+}
