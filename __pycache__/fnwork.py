@@ -17,9 +17,14 @@ while True:
        account_no=account_no+1
        bank['balance']=balance
        list.append(bank.copy())
-
     elif choice==2:
-        print(list)
+        for i in list:
+            print('-'*20)
+            for j ,k in bank.items():
+              print(j,':',k)
+        for i in range(1):
+            print('-'*20)
+      
     elif choice==3:
         account_no=int(input('enter your acc_no'))
         amount=int(input('enter your amount'))
@@ -36,13 +41,16 @@ while True:
          amount=int(input('enter your amount'))
          for i in list:
                  acc.append(i["account_no"])
-         print(acc)
+        #  print(acc)
          if account_no in acc:
              for i in list:
-                  if i['account_no']>=account_no:
-                     i['balance']-=amount
+                 if i['account_no']==account_no:
+                    if i['balance']>=amount:
+                      i['balance']-=amount
+                    else:
+                        print('money not found')  
          else:
-             print('not possible')
+             print(' no acc found')
     elif choice==5: 
         exit()
 

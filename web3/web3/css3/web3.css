@@ -32,10 +32,7 @@ a.customers{
 .navbar{
   background-color: rgb(250, 252, 254);
 }
-
-
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-
 *, *:before, *:after{
   -moz-box-sizing:border-box;
   box-sizing: border-box;
@@ -295,6 +292,9 @@ background-color: black;
     background-color: black;
     color: aliceblue;
 
+}
+.wh{
+  background-color: #fff;
 }
 .plane:hover{
     background-color: white;
