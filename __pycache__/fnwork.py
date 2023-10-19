@@ -20,9 +20,9 @@ while True:
     elif choice==2:
         for i in list:
             print('-'*20)
-            for j ,k in bank.items():
+            for j ,k in i.items():
               print(j,':',k)
-        for i in range(1):
+        for i in list:
             print('-'*20)
       
     elif choice==3:
