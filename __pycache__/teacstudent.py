@@ -1,56 +1,59 @@
 student={}
 regno=1001
 studentli=[]
-# teacher={}
 teachlist=[]
 studentstore=[]
 teachstore=[]
 while True:
-    print('1.student name','2.viewstudent','3.teachers','4.viewteacher','exit()')
+    print('1.student name','2.teacher','3.viewstudent','4.viewteacher','5.viewasign','6.exit()')
     choice=int(input('enter your choice'))
     if choice==1:
-         stdname=input('enter student name')
-         student['stdname']=stdname
-         stdage=int(input('enter student age'))
-         student['stdage']=stdage
+         name=input('enter student name')
+         student['name']=name
+         age=int(input('enter student age'))
+         student['age']=age
          stddepartment=input('enter student department')
          student['stddepartment']=stddepartment
          student['regno']=regno
          regno=regno+1
          studentli.append(student.copy())
     if choice==2:
-              for i in studentli:
-                    print('-'*20)
-                    for j,k in i.items():
-                       print(j ,':', k)
-              for i in studentli:
-                    print('-'*20)
+             name=input('enter teacher name')
+             teachlist.append(name)
+            #  teachdepartment=input('enter  department')
+            #  teachlist.append(teachdepartment)
 
     if choice==3:
-          teachername=input('enter teacher name')
-          student['teachername']=teachername
-          teachdepartment=input('enter teaching department')
-          student['teachdepartment']=teachdepartment
-          teachlist.append(student.copy())
+             print(studentli)
     if choice==4:
-            stdname=input('enter student name')
+             print(teachlist)
+    if choice==5:
+            student=input('enter student name')
             for i in studentli:
-                  studentstore.append(i['stdname'])
-   
-            if stdname in studentstore:
-                  for i in studentli:
-                        if i['stdname']==stdname:
-                              for j in teachlist:
-                                    i['teachlist']=j
-                              print(studentli)      
-          
-            #  for i in studentli:
-            #             if i['stdname']==stdname:
-            #                   for j in stdname:
-            #                       i['teachlist']=j
-            #  print(studentli)      
-
-          
+                  studentstore.append(i['name'])
+            b=len(teachlist)    
+            for j in range(b):  
+                  if student in studentstore:
+                        for i in studentli:
+                              if i['name']==student:
+                               i['teachstore']=teachlist[j]
+                  print(studentli)        
     if choice==6:
-                
+           student=input('enter department ')
+           for i in studentli:
+                  studentstore.append(i['stddepartment'])
+            # b=len(teachlist)    
+            # for j in range(b):  
+           if student in studentstore:
+              for i in studentli:
+                 if i['stddepartment']==student:
+                        for n in teachlist:
+                               i['teachstore']=teachlist[0]
+                 else:
+                               i['teachstore']=teachlist[1]
+           print(studentli)        
+   
+       
+
+    if choice==7:            
           exit()                
