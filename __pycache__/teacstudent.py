@@ -1,14 +1,15 @@
 student={}
 regno=1001
-fee=10000
+fee=12000
 balance=0
 depamount=[]
 studentli=[]
 teachlist=[]
 studentstore=[]
 teachstore=[]
+stdname=[]
 while True:
-    print('1.student name','2.teacher','3.viewstudent','4.viewteacher','5.viewasign','6.viewdepasign','7.fee','8.teachstdlist','9.exit()')
+    print('1.student name','2.teacher','3.viewstudent','4.viewteacher','5.viewasign','6.viewdepasign','7.fee','8.teachstdlist','9.amountpay','10.exit()')
     choice=int(input('enter your choice'))
     if choice==1:
          name=input('enter student name')
@@ -17,6 +18,7 @@ while True:
          student['age']=age
          stddepartment=input('enter student department')
          student['stddepartment']=stddepartment
+         student["fees"]=fee
          student['regno']=regno
          regno=regno+1
          studentli.append(student.copy())
@@ -26,9 +28,17 @@ while True:
             #  teachdepartment=input('enter  department')
             #  teachlist.append(teachdepartment)
     if choice==3:
-             print(studentli)
+            for i in studentli:
+             print('-'*20)
+             for j ,k in i.items():
+                 print(j,':',k)
+             print('-'*20)        
     if choice==4:
-             print(teachlist)
+            for i in teachlist:
+             print('-'*20)
+             for j ,k in i.items():
+                 print(j,':',k)
+             print('-'*20)        
     if choice==5:
             student=input('enter student name')
             for i in studentli:
@@ -70,21 +80,22 @@ while True:
            for i in studentli:
               studentstore.append(i['name'])
               
-              if fee<=10000:
+              if fee<=12000:
+                   
                     amount=int(input('enter your amount'))
-                    depamount=10000-amount
-                  #   if depamount<=fee:
-                  #         balance=depamount-balance
-                  #         print('balance amount=',balance)   
-
-           print('balance amount=',depamount)   
+                    i["paid"]=amount
+              i['fees']=12000-amount
+           print(studentli)   
                             
     if choice==8: 
-             name=input('enter teacher name')
-             teachlist.append(name)
-             for i in studentli:
-                  studentstore.append(i['name'])
-
-          
-    if choice==9:                     
+             teacher=input('enter teacher name')
+             if teacher in teachlist:
+                for i in studentli:
+                   if i['teachstore']==teacher:
+                           stdname.append(i['name'])
+                print(stdname)
+    if choice==9: 
+           for i in studentli:
+              print('name:',i['name'],'paid:',i['paid'],'fees:',i['fees'])     
+    if choice==10:                     
           exit()                
