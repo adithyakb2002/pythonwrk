@@ -1,0 +1,32 @@
+.heading{
+     font-size:65px ; 
+     padding-bottom: 15px;
+} 
+.vital{
+    font-size: 20px;
+    /* padding-bottom: 15px; */
+}
+.trusted{
+    font-size: 20px;
+
+}
+.learn{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.gmrl{
+    color: blue;
+}
+.li{
+    background-image: linear-gradient(white,aliceblue);
+}
+.visit{
+    border: 1px solid black;
+}
+.visittp{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
