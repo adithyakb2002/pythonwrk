@@ -30,3 +30,20 @@
     border-bottom: 1px solid black;
 
 }
+.menu{
+    padding-left: 40%;
+    color: white;
+}
+.link:hover{
+    background-color: rgb(6, 6, 53);
+    color: white;
+
+
+}
+.navs{
+    background-color: white;
+}
+.nav-t{
+    color: black;
+   text-decoration: none;
+}
