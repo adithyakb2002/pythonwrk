@@ -7,12 +7,12 @@
     height:auto;
   }
   body .carousel-indicators li{
-    background-color:red;
+    background-color:black;
   }
-  body .carousel-control-prev-icon,
+  /* body .carousel-control-prev-icon,
   body .carousel-control-next-icon{
-    background-color:red;
-  }
+    background-color:black;
+  } */
   body .no-padding{
     padding-left: 0;
     padding-right: 0;
