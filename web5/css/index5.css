@@ -85,3 +85,19 @@
 .Enquiry{
     text-align: center;
 }
+/* footer */
+.apps{
+    border-radius: 50px;
+    padding:5%;
+    background-color: antiquewhite;
+}
+.font{
+    font-size:15px;
+    font-weight: 100;
+}
+.fonts{
+    font-size: 30px;
+}
+/* footer{
+    background-color: black;
+} */
