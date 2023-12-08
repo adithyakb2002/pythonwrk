@@ -1,0 +1,39 @@
+.Health{
+    padding-top: 18%;
+    background-color: aliceblue;
+}
+.lab{
+    font-size: 20px;
+}
+.Labs{
+    font-size: 30px; 
+}
+.Book  {
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:black;
+    color: darkolivegreen;
+    border: darkolivegreen ;
+}
+.Book:hover{
+    background-color: rgb(41, 41, 95);
+    
+    color: white;
+}
+.Hours{
+    padding-right: 50px;
+}
+.smallsec{
+    background-color: darkolivegreen;
+
+}
+.line{
+    border-left: 1px solid black;
+}
+.demo>[class*='col-']{
+    padding-right: 0;
+    padding-left: 0;
+}
