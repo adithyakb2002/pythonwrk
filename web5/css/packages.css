@@ -113,3 +113,8 @@ figure:hover{
 .over{
     padding-bottom: 15%;
 }
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+  }
