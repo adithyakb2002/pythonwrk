@@ -1,3 +1,5 @@
+/* sec3 */
+
 [class^='imghvr-'], [class*=' imghvr-'] {
     position: relative;
     display: inline-block;
@@ -60,6 +62,9 @@
 .imghvr-push-up figcaption {
     transform: translateY(100%);
 }
- .creative{
+ /* .creative{
     color: blue;
- }
+ } */
+
+ /* sec4 */
+ 

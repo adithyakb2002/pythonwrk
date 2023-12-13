@@ -58,21 +58,6 @@
     width:100%;
     height:auto;
   }
-  /* body .carousel-indicators1 li{
-    background-color:black;
-  } */
-  /* body .carousel-control-prev-icon,
-  body .carousel-control-next-icon{
-    background-color:black;
-  } */
-  /* body .no-padding{
-    padding-left: 0;
-    padding-right: 0;
-  } */
-/* sec4 */
-.box{
-    border: 1px solid blue;
-}
 .sub:hover{
  
     background-color: green;
@@ -121,7 +106,7 @@ h2::after {
 	position: absolute;
 	margin: 0 auto;
 	height: 3px;
-	background: #8fbc54;
+	/* background: #8fbc54; */
 	left: 0;
 	right: 0;
 	bottom: -10px;
