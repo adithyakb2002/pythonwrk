@@ -1,42 +1,3 @@
-.Packages{
-    padding-top: 10%;
-    background-color: aliceblue;
-}
-.Labs{
-    font-size: 20px; 
-}
-.demo>[class*='col-']{
-    padding-right: 0;
-    padding-left: 0;
-}
-.Book  {
-    border-radius: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color:black;
-    color: darkolivegreen;
-    border: darkolivegreen ;
-}
-.Book:hover{
-    background-color: rgb(41, 41, 95);
-    
-    color: white;
-}
-.Hours{
-    padding-right: 50px;
-}
-.smallsec{
-    background-color: darkolivegreen;
-
-}
-.line{
-    border-left: 1px solid black;
-}
-
-
-/* se3 */
 .column div {
 	position: relative;
 	float: left;
@@ -96,8 +57,9 @@ figure:hover+span {
 .Package{
     background-color: rgb(214, 214, 214);
 }
-h5:hover{
+.Package:hover{
     background-color: rgb(8, 65, 8);
+	padding: 15px;
    
 }
 figure:hover{
@@ -111,7 +73,7 @@ figure:hover{
 } 
 
 
-   /* bg icons */  
+/* bg icons */  
   .overlay {
 	position: absolute;
 	top: 0;
@@ -135,3 +97,6 @@ figure:hover{
   .fa fa-chain:hover {
 	color:white;
   }
+.welcome{
+    width: 500px;
+}
