@@ -1,0 +1,9 @@
+<form method="post">
+    {%csrf_token%}
+    {{lemon_form}}
+
+    <button name="save">submit</button>
+</form>
+{%for i in lemon%}
+<li>{{i.name}}</li>
+{%endfor%}
