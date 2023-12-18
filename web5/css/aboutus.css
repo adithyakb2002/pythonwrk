@@ -37,3 +37,30 @@
     padding-right: 0;
     padding-left: 0;
 }
+/* bookan appointment */
+.Submit{
+    background-color: blue;
+    color: white;
+    /* padding: 10px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Submit:hover{
+    background-color: rgb(95, 139, 29);
+    color: white;
+}
+.personalized{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.appointment{
+    text-align: center;
+    padding-left: 20%;
+}
+.centersub{
+    padding-left:20%;
+    text-align: center;
+}
