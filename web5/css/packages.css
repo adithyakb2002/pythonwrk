@@ -101,7 +101,7 @@ h5:hover{
    
 }
 figure:hover{
-    background-color: rgb(43, 43, 128);
+    background-color: rgb(8, 8, 54);
 }
 .bulletts{
     padding-left: 90%;
@@ -125,7 +125,7 @@ figure:hover{
 	opacity: 0.3;
   }
   .icon {
-	color: white;
+	color:#fff;
 	position: absolute;
 	bottom: 90%;
 	left: 50%;
@@ -133,5 +133,5 @@ figure:hover{
   }
   
   .fa fa-chain:hover {
-	color:white;
+	color:#fff;
   }
