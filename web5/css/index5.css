@@ -219,20 +219,20 @@ h2::after {
 	color:#fff;
   } */
 /* mediaquery */
-@media(max-width:1200)and(min-width:896)
+@media(max-width:1200)and(min-width:898)
 {
     .image1{
-        position: absolute;
-		height: 100;
+        /* position: absolute; */
+		height: 100vh;
     }
 }
-@media(max-width:917)and(min-width:600)
+ @media(max-width:917)and(min-width:600)
 {
-    .media{
-        padding-left: 20px;
+    .thoughts{
+        padding: 20px;
     }
 }
-@media(max-width:1466)and(min-width:900)
+/* @media(max-width:1466)and(min-width:900) 
 {
     .second{
        position: absolute;
@@ -243,4 +243,4 @@ h2::after {
     .five{
        position: absolute;
     }
-}
+} */
