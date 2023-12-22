@@ -1,0 +1,330 @@
+.heading{
+    font-size:50px ; 
+    /* padding-bottom: 10px; */
+    font-weight: 100;
+} 
+.vital{
+   font-size: 20px;
+   /* padding-bottom: 15px; */
+}
+.trusted{
+   font-size: 20px;
+
+}
+.learn{
+   border-radius: 20px;
+   padding: 10px;
+   background-color: blue;
+   color: white;
+}
+.gmrl{
+   color: blue;
+   padding-left: 10%;
+}
+.li{
+   background-image: linear-gradient(white,aliceblue);
+}
+.visit{
+   border: 1px solid black;
+}
+/* .visittp{
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+
+} */
+.menu{
+   padding-left: 40%;
+   color: white;
+}
+.link:hover{
+   background-color: rgb(6, 6, 53);
+   color: white;
+
+
+}
+.navs{
+   background-color: white;
+}
+.nav-t{
+   color: black;
+  text-decoration: none;
+}
+/* .nav2{
+   padding-left: 15%;
+} */
+
+/* vhgdjhd */
+.col-md-3{
+   display: inline-block;
+   margin-left:-4px;
+ }
+ .col-md-3 img{
+   width:100%;
+   height:auto;
+ }
+.sub:hover{
+
+   background-color: green;
+}
+.sub{
+   text-align: center;
+   color: white;
+   background-color: blue;
+}
+.boxes{
+   border: 1px solid rgb(17, 17, 59);
+}
+.Enquiry{
+   text-align: center;
+}
+/* footer */
+.apps{
+   border-radius: 50px;
+   padding:5%;
+   background-color: antiquewhite;
+}
+.font{
+   font-size:15px;
+   font-weight: 100;
+}
+.fonts{
+   font-size: 30px;
+}
+footer{
+   background-color: aliceblue;
+}
+
+
+
+/* carousel testimonials */
+
+h2 {
+   color: #333;
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   position: relative;
+   margin: 30px 0 60px;
+}
+h2::after {
+   content: "";
+   width: 100px;
+   position: absolute;
+   margin: 0 auto;
+   height: 3px;
+   /* background: #8fbc54; */
+   left: 0;
+   right: 0;
+   bottom: -10px;
+}
+.col-center {
+   margin: 0 auto;
+   float: none !important;
+}
+.carousel {
+   padding: 0 70px;
+}
+.carousel .carousel-item {
+   color: #999;
+   font-size: 14px;
+   text-align: center;
+   overflow: hidden;
+   min-height: 290px;
+}
+.carousel .carousel-item .img-box {
+   width: 135px;
+   height: 135px;
+   margin: 0 auto;
+   padding: 5px;
+   border: 1px solid #ddd;
+   border-radius: 50%;
+}
+.carousel .img-box img {
+   width: 100%;
+   height: 100%;
+   display: block;
+   border-radius: 50%;
+}
+.carousel .testimonial {
+   padding: 30px 0 10px;
+}
+.carousel .overview {	
+   font-style: italic;
+}
+.carousel .overview b {
+   text-transform: uppercase;
+   color: #7AA641;
+}
+.carousel-control-prev, .carousel-control-next {
+   width: 40px;
+   height: 40px;
+   margin-top: -20px;
+   top: 50%;
+   background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+   font-size: 68px;
+   line-height: 42px;
+   position: absolute;
+   display: inline-block;
+   color: rgba(0, 0, 0, 0.8);
+   text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+   bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+   width: 12px;
+   height: 12px;
+   margin: 1px 3px;
+   border-radius: 50%;
+   border: none;
+}
+.carousel-indicators li {	
+   background: #999;
+   border-color: transparent;
+   box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+/* .carousel-indicators li.active {	
+   background: #555;		
+   box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+} */
+.linking{
+   text-decoration: none;
+   color: black;
+}
+/* iconchain */
+/* .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: 0;
+ }
+ 
+ .container:hover .overlay {
+   opacity: 0.3;
+ }
+ .icon {
+   color:#fff;
+   position: absolute;
+   bottom: 90%;
+   left: 50%;
+   text-align: center;
+ }
+ 
+ .fa fa-chain:hover {
+   color:#fff;
+ } */
+/* mediaquery */
+
+@media(max-width:1340px)and(min-width:1312px)
+{
+   .image1{
+       height:500vh;
+   }
+}
+ /* @media(max-width:1290px)and(min-width:1220px)
+{
+   .image1{
+       height: 150vh;
+   }
+} */
+/*@media(max-width:1220px)and(min-width:1200px)
+{
+   .image1{
+       height:220vh;
+   }
+} 
+*/
+
+
+
+/* @media(max-width:1466)and(min-width:900) 
+{
+   .second{
+      position: absolute;
+   }
+}
+@media(max-width:1314)and(min-width:1260)
+{
+   .five{
+      position: absolute;
+   }
+} */
+.image1{
+   width: 100%;
+}
+
+/* sec3 */
+
+[class^='imghvr-'], [class*=' imghvr-'] {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color:white;
+    color: #fff;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+}
+
+/* [class^='imghvr-'] > img, [class*=' imghvr-'] > img {
+    vertical-align: top;
+    max-width: 100%;
+} */
+
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
+    background-color:white;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+[class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {
+    color: #ffffff;
+}
+
+[class^='imghvr-'] a, [class*=' imghvr-'] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+[class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before,
+[class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,
+[class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,
+[class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {
+    box-sizing: border-box;
+    transition: all .35s ease;
+}
+
+/* imghvr-push-*
+   ----------------------------- */
+[class^='imghvr-push-']:hover figcaption, [class*=' imghvr-push-']:hover figcaption {
+    transform: translate(0, 0);
+}
+
+/* imghvr-push-up
+   ----------------------------- */
+.imghvr-push-up figcaption {
+    transform: translateY(100%);
+}
+ /* .creative{
+    color: blue;
+ } */
+
+ /* sec4 */
+ 
