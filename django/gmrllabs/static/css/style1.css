@@ -1,0 +1,79 @@
+.Health{
+    padding-top: 10%;
+    background-color: aliceblue;
+}
+.lab{
+    font-size: 20px;
+}
+.Labs{
+    font-size: 30px; 
+}
+.Book  {
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:black;
+    color: darkolivegreen;
+    border: darkolivegreen ;
+}
+.Book:hover{
+    background-color: rgb(41, 41, 95);
+    
+    color: white;
+}
+.Hours{
+    padding-right: 50px;
+}
+.smallsec{
+    background-color: darkolivegreen;
+
+}
+.line{
+    border-left: 1px solid black;
+}
+.demo>[class*='col-']{
+    padding-right: 0;
+    padding-left: 0;
+}
+/* bookan appointment */
+.Submit{
+    background-color: blue;
+    color: white;
+    /* padding: 10px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Submit:hover{
+    background-color: rgb(95, 139, 29);
+    color: white;
+}
+.personalized{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.appointment{
+    text-align: center;
+    padding-left: 20%;
+}
+.centersub{
+    padding-left:20%;
+    text-align: center;
+}
+/* department */
+.journey{
+    padding-right: 72%;
+   margin-bottom: 5%;
+   font-weight: 100;
+}
+.Embark{
+    padding-top:8%;
+   
+}
+.expert{
+    background-color: aliceblue;
+}

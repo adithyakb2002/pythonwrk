@@ -7,11 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <body>
@@ -21,7 +21,7 @@
                       
           <div class="row pt-4">
               <div class="col-lg-2 col-sm-5 col-md-5 col-5 ">
-                <a class="navbar-brand" href=""><img class="w-100 " src="{% static 'img/gmrl-logo.svg' %}" alt=""></a>
+                <a class="navbar-brand" href="{%url 'index' %}"><img class="w-100 " src="{% static 'img/gmrl-logo.svg' %}" alt=""></a>
               </div>
               <div class="col-lg col-sm-6 col-md-9 col-12">
       
@@ -38,7 +38,7 @@
               <ul class="navbar-nav  mb-2 mb-lg-0 nav2 ">
                 
                 <li class="nav-item">
-                  <a class=" ab  nav-t link" aria-current="page" href="">About Us</a>
+                  <a class=" ab  nav-t link" aria-current="page" href="{%url 'aboutus' %}">About Us</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
                   <a class=" abc nav-t link" aria-current="page " href="" >Package</a>
@@ -204,7 +204,7 @@
      </div> 
      <!-- sec4 -->
      <section class="Comprehensive" >
-        <div class="container  ">
+        <div class="container mt-5 pt-5 ">
           <div class="">
             <h2 class="mb-5 Diverse">Diverse Departments </h2>
             <h2 class="Diverse"> for Comprehensive Health Services</h2>
@@ -290,7 +290,349 @@
             </div>    
           </div>
     
-      </section>
+      </section> 
+      <!-- sec5 -->
+      <div class="container-fluid leftside">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8 col-8 mt-5 "><h2 class="Unveiling">GMRL Laboratories:  <div class="col-lg"><h2 class="Unveiling">Unveiling Our Range of Health Packages</h2></div>   </h2></div>   
+      <div class="col-lg-4 col-md-4 col-sm-4 col-4 mt-5 pt-5 mb-5">
+        <button class="viewmore mt-5  p-2">view more</button>
+     </div>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="hover01 column  ">
+    
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                  <a class="linking" href="../html/executivepackage.html">
+                    <div>
+                  <figure>
+                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
+                    <h5 class="Package ">Executive Package
+                       <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                       </h5>  
+                  </figure>
+                </div>
+                      </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                  <a class="linking" href="../html/ayushsilverplan.html">
+                  <figure>
+                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
+                    <h5 class="Package ">Ayush Silver plan 
+                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                     </h5>  
+                  </figure>
+                </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                  <a class="linking" href="../html/diabeticandkidney.html">
+                  <figure>
+                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
+                    <h5 class="Package ">Ayush Diabetic&kidney care 
+                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i>  -->
+                    </h5>  
+                  </figure>
+                </a>
+                </div>
+              </div>    
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="hover01 column  ">
+    
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                  <a class="linking" href="../html/ayushgeneral.html">
+                  <figure>
+                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
+                    <h5 class="Package ">Ayush General 
+                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                     </h5>  
+                  </figure>
+                </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4  bgimg">
+                  <a class="linking" href="../html/ayushgold.html">
+                  <figure>
+                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
+                    <h5 class="Package ">Ayush Gold
+                       <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                       </h5>  
+                  </figure>
+                </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4  bgimg">
+                  <a class="linking" href="../html/executivepackage.html">
+                  <figure>
+                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
+                    <h5 class="Package ">Executive Package 
+                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                     </h5>  
+                  </figure>
+                </a>
+                  </div>
+                </div>
+                </div>
+               </div>
+               
+          </div>
+        </div>  
+      </div> 
+      <!-- sec6 -->
+      <section class="Comprehensive">
+        <div class="container mb-5 pb-5  mt-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                       <h2 class="mt-5">Our Testimonials</h2>
+                                 <div class="carousel-inner">
+                                   <div class="carousel-item active">
+                                     <div class="row">
+                                         <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
+                                   
+                                                 <div class="cards">
+                                                     <div class="box front prefre">
+                                                        <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional staff. Great</p>
+                                                        <p class="overview"><b>Michael Holz</b>  thripunithara</p>
+                                                       
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         <div class="col-lg-4 col-md-12 col-sm-12  col-12 ">
+                                             <div class="cards">
+                                                 <div class="box front prefre">
+                                                    <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional staff. Great</p>
+                                                    <p class="overview"><b>Michael Holz</b>, thripunithara</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="col-lg-4 col-md-12 col-sm-12  col-12 ">
+                                             <div class="cards">
+                                                 <div class="box front prefre">
+                                                    <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional s</p>
+                                                    <p class="overview"><b>Michael Holz</b>, thripunithara</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                     
+                                       </div> 
+                                       </div>
+                                   <div class="carousel-item">
+                                     <div class="row">
+                                         <div class="col-lg-4 col-md-12 col-sm-12  col-12  ">
+                                             
+                                                 <div class="cards">
+                                                     <div class="box front prefre">
+                                                        <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional staff. Great</p>
+                                                        <p class="overview"><b>Michael Holz</b>, thripunithara</p>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         <div class="col-lg-4 col-md-12 col-sm-12  col-12 ">
+                                             <div class="cards">
+                                                 <div class="box front prefre">
+                                                    <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional staff. Great</p>
+                                                    <p class="overview"><b>Michael Holz</b>, thripunithara</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="col-lg-4 col-md-12 col-sm-12  col-12">
+                                             <div class="cards">
+                                                 <div class="box front prefre">
+                                                    <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional s</p>
+                                                    <p class="overview"><b>Paula Wilson</b>, thripunithara</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                     
+                                       </div>       
+                                 </div>
+                                   <div class="carousel-item">
+                                     <div class="row">
+                                         <div class="col-lg-4  col-md-12 col-sm-12  col-12 ">
+                                             
+                                                 <div class="cards">
+                                                     <div class="box front prefre">
+                                                        <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional staff. Great</p>
+                                                        <p class="overview"><b>Michael Holz</b>, thripunithara</p>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                             <div class="cards">
+                                                 <div class="box front prefre">
+                                                    <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional staff. Great</p>
+                                                    <p class="overview"><b>Michael Holz</b>, thripunithara</p>                            </div>
+                                             </div>
+                                         </div>
+                                         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                             <div class="cards">
+                                                 <div class="box front prefre">
+                                                    <p> We had used GMRL's services twice. Both the times the experience was wonderful. Right from the time of booking, their follow up, coordination, home collection, payment process, result sharing is all seamless. I am very happy to see such polite, and professional s</p>
+                                                    <p class="overview"><b>Michael Holz</b>, thripunithara</p>                            </div>
+                                             </div>
+                                         </div>
+                                       </div>           
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>    
+               
+                 </section>
+
+ <!--sec7  -->
+ <div class="container mt-5 mb-5 pb-5">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12  col-12">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12  col-12"><h1>Embrace Excellence:
+         </h1><h1> Why GMRL Laboratories Stands Out</h1></div>
+        <div class="col-lg-12 col-md-11 col-sm-11  col-11"><p>At GMRL Laboratories, we stand out as a beacon of excellence, offering top-notch diagnostic services and a commitment to your well-being.</p></div>
+        <div class="col-lg-1  col-md-6 col-sm-1  col-1 "><i class="fa fa-check"></i></div>
+        <div class="col-lg-11 col-md-6 col-sm-11  col-11"><p>Cutting-edge, precision diagnostic technology</p></div>
+        <div class="col-lg-1  col-md-1 col-sm-1  col-1"><i class="fa fa-check"></i></div>
+        <div class="col-lg-11col-md-11 col-sm-11  col-11"><p>A highly skilled, dedicated team of healthcare professionals</p></div>
+        <div class="col-lg-1  col-md-1 col-sm-1  col-1"><i class="fa fa-check"></i></div>
+        <div class="col-lg-11 col-md-11 col-sm-11  col-11"><p>Stringent quality control protocols to ensure result accuracy</p></div>
+        <div class="col-lg-1  col-md-1 col-sm-1  col-1"><i class="fa fa-check"></i></div>
+        <div class="col-lg-11 col-md-11 col-sm-11  col-11"><p>An extensive selection of comprehensive Health Check Up Packages
+        </p></div>
+        <div class="col-lg-1  col-md-11 col-sm-11  col-11"><i class="fa fa-check"></i></div>
+        <div class="col-lg-11 col-md-8 col-sm-10  col-12"><p>Competitive and accessible pricing to promote your health</p></div>
+        <div class="col-lg-1   col-md-11 col-sm-11  col-11"><i class="fa fa-check"></i></div>
+        <div class="col-lg-11 "><p>Convenient, patient-centric services for your well-being</p></div>
+        <div class="col-lg ms-5 col-md-8 col-sm-10  col-10"><button class="ms-5 mb-3 me-5 learn text-center ">learn more</button>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12  col-12 boxes">
+    <div class="row">
+      <div class="col-lg col-md-12 col-sm-12  col-12 Enquiry">
+        <h1>Enquiry</h1></div>
+      <div class="col-lg-12 col-md-12 col-sm-12  col-12"><p>For any inquiries, please feel free to
+        reach out to us.</p></div>
+      <div class="col-lg-12 col-md-12 col-sm-12  col-12  ">
+        <input type="text" class="form-control mb-4" id="floatingInput" placeholder="your name">
+
+      <div class="col-lg-12 col-md-12 col-sm-12  col-12">
+        <input type="text" class="form-control mb-4" id="floatingInput" placeholder="phone">
+
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12  col-12">
+        <input type="email" class="form-control mb-4" id="floatingInput" placeholder="email address">
+
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12  col-12">
+        <!-- <input type="" class="form-control" id="floatingInput" placeholder="message"> -->
+        <textarea name="message mb-4" id="" cols="60" rows="3" placeholder="message"></textarea>
+      </div>
+
+    </div>
+
+      <button class=" sub pt-2 pb-2 mt-2  ">submit</button>
+
+    
+  </div>
+
+</div>
+
+</div>
+</div>
+<!-- footer -->
+<footer>
+  <div class="container-fluid ">
+    <div class="row smallsec">
+      <div class="col-lg-1 col-md-12 col-sm-12  col-12"><img class=" me-5 pe-5" src="{% static 'img/icons8-appointments-60.png' %}" alt="">
+      </div>
+      <div class="col-lg-4  col-md-12 col-sm-12  col-12">
+          <h5>Make an appointment</h5>
+          <p>call +910278678 or click Book Now to secure your appointment</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12">       
+             <button class="  Book  ">Book Now</button>
+      </div>
+      <div class="col-lg-1 col-md-12 col-sm-12  col-12 line "><img src="{% static 'img/icons8-clock-60.png' %}" alt=""></div>
+      <div class="col-lg-4 col-md-12 col-sm-12  col-12 Hours ">
+        <h5>Opening Hours</h5>
+        <p>Mon-Sat: 6am to 6pm</p>
+        <p>Sun:6am to 12:30pm</p>
+      </div>
+  </div>
+
+    <div class="row">
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><img src="{% static 'img/gmrl-logo.svg' %}" alt=""></div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12 "><h5> Quick Links</h5>
+
+        <div class="row">
+          <div class="col-lg col-md-12 col-sm-12  col-12">
+            <p>Home</p>
+            <p>About Us</p>
+           <p>Packages</p> 
+           <p>Departments</p>
+          <p>Gallery</p>
+          <p>Blog</p>
+           <p>Testimonials</p>
+          <p>Branches</p>
+          <p>Contact Us</p>
+          <p>Privacy Policy</p>
+         <p>Terms & Conditions</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><h5>Departments</h5>
+        <div class="row">
+          <div class="col-lg col-md-12 col-sm-12  col-12">
+          <p>Pathology</p>
+           <p>Biochemistry</p>
+         <p>Microbiology</p>
+           <p>Serology</p>
+            <p>Immunology</p>
+            <p>Radiology</p>
+            <p>Molecular Biology</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><h5>Our Packages</h5>
+        <div class="row">
+          <div class="col-lg col-md-12 col-sm-12  col-12">
+          <p>Executive Package</p>
+         <p>Ayush General</p>
+            <p>Ayush Silver Plan</p>
+          <p>yush Diabetic & Kidney Care</p>
+           <p>Ayush Gold</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><h5>Get In Touch</h5>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12  col-12">
+            <p>GMRL Laboratories Chambakkara, Ernakulam, Ernakulam - 682011</p>
+            <p>+91 81388 62626</p>
+            <p>0484 0000 0000</p>
+            <p>info@gmrllabs.com</p>
+          </div>
+          <div class="row ">
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 "><img class="" src="{% static 'img/icons8-instagram-20.png' %}" alt=""></div>
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 "><img src="{% static 'img/icons8-linkedin-20.png' %}" alt=""></div>
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 "><img src="{% static 'img/icons8-twitter-circled-20.png' %}"alt=""></div>
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12"><img src="{% static 'img/icons8-facebook-20.png' %}" alt=""></div>
+          </div>
+  
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
             

@@ -4,4 +4,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 urlpatterns = [
     path('',views.index,name='index'),
+       path('aboutus',views.aboutus,name='aboutus'),
+       path('packages',views.packages,name='packages'),
+       path('department',views.department,name='department'),
 ]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
