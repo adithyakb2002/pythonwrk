@@ -41,23 +41,23 @@
                   <a class=" ab  nav-t link" aria-current="page" href="{%url 'aboutus' %}">About Us</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t link" aria-current="page " href="" >Package</a>
+                  <a class=" abc nav-t link" aria-current="page " href="{%url 'packages' %}" >Package</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t link" aria-current="page" href="">Departments</a>
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'department' %}">Departments</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t link" aria-current="page" href="">Blog</a>
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'blog' %}">Blog</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
+
                 <li class="nav-item">
-                  <a class=" abc nav-t link" aria-current="page" href="">Gallery</a>
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <li class="nav-item">
-                  <a class=" abc nav-t link" aria-current="page" href="">Branches</a>
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'gallery' %}">Gallery</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
-                  <a class=" abc nav-t link" aria-current="page" href="">Contact us</a>
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'branches' %}">Branches</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'contactus' %}">Contact us</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </ul>
             </div>
@@ -75,7 +75,7 @@
               <div class="carousel-item active" data-bs-interval="5000">
                 <div class="container-fluid ">
                     <div class="row mt-5 li">
-                        <div class="col-lg-6 col-md-6 col-sm-6  col-6 ps-5  thoughts ">
+                        <div class="col-lg-6 col-md-12 col-sm-10  col-12 ps-5  thoughts ">
                 
                             <h5 class="ms-5 me-5 ps-5 pt-5   heading">Unlocking vital insights:</h5>
                                 <h5 class=" ms-5 me-5 ps-5  heading"> insights: your blood,your lab</h5>
@@ -83,10 +83,10 @@
                            <p class=" ms-5 me-5 ps-5  vital ">unlocking vital insights:where your blood holds the key to your </p>
                          
                            <p class="ms-5 mt-3 me-5 ps-5  trusted">Health-welcome to your trusted laboratory</p>
-                           <div class="col-lg col-md col-sm col ms-5"><button class="ms-5 mt-5 me-5 learn  ">learn more</button>
+                           <div class="col-lg  col-md-12 col-sm-10  col-12 ms-5"><button class="ms-5 mt-5 me-5 learn  ">learn more</button>
                            </div>
                      </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6  col-6 img1">
+                        <div class="col-lg-6  col-md-12 col-sm-10  col-12 img1">
                          
                               <img class=" image1" src="{% static 'img/banner-01.jpg' %}" alt="">
                         
@@ -98,7 +98,7 @@
               <div class="carousel-item"  data-bs-interval="5000">
                 <div class="container-fluid ">
                   <div class="row mt-5 li">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6  ps-5  thoughts ">
+                    <div class="col-lg-6  col-md-12 col-sm-10  col-12  ps-5  thoughts ">
                 
                         <h5 class="ms-5  me-5 ps-5 pt-5  heading">Unlocking vital insights:</h5>
                             <h5 class=" ms-5 me-5 ps-5  heading"> insights: your blood,your lab</h5>
@@ -106,10 +106,10 @@
                        <p class=" ms-5 me-5 ps-5 vital ">unlocking vital insights:where your blood holds the key to your </p>
                      
                        <p class="ms-5 mt-3 me-5 ps-5 trusted">Health-welcome to your trusted laboratory</p>
-                       <div class="col-lg col-md col-sm col- ms-5"><button class="ms-5 mt-5 me-5 learn  ">learn more</button>
+                       <div class="col-lg  col-md-12 col-sm-10  col-12 ms-5"><button class="ms-5 mt-5 me-5 learn  ">learn more</button>
                        </div>
                  </div>
-                      <div class="col-lg-6 col-md-6 col-sm-10 col-6   img1">
+                      <div class="col-lg-6  col-md-12 col-sm-10  col-12  img1">
                        
                             <img class=" image1" src="{% static 'img/banner-02.jpg' %}" alt="">
                     </div>
@@ -143,7 +143,7 @@
         <div class="row visit"> 
            
         <div class="col-lg-3 col-md-6 col-sm-6 col-6 ">
-          <a class="linking" href="">
+          <a class="linking" href="{%url 'bookanappointment' %}">
           <h5 class="mt-5"> home visit</h5>
           <figures class="imghvr-push-up"><img class="100 p-5 " src="{% static 'img/icons8-home-60.png' %}" alt="example-image">
        <figcaption>
@@ -154,7 +154,7 @@
         </div>
   
         <div class="col-lg-2 col-md-6 col-sm-6 col-6  visit">
-          <a class="linking" href="../html/contactus.html">
+          <a class="linking" href="{%url 'contactus' %}">
           <h5 class="mt-5">reach us</h5>
   
            <figures class="imghvr-push-up"><img class=" p-5 " src="{% static 'img/icons8-location-60.png' %}" alt="example-image">
@@ -166,7 +166,7 @@
         </div>
   
         <div class="col-lg-2 col-md-6 col-sm-6 col-6 visit ">
-          <a class="linking" href="">
+          <a class="linking" href="{%url 'bookanappointment' %}">
           <h5 class="mt-5"> Book an Appointment</h5>
   
          <figures class="imghvr-push-up"><img class=" p-5 " src="{% static 'img/icons8-appointments-60.png' %}" alt="example-image">
@@ -178,7 +178,7 @@
         </div>
   
         <div class="col-lg-2  col-md-6 col-sm-6 col-6 visit">
-          <a class="linking" href="">
+          <a class="linking" href="{%url 'packages' %}">
           <h5 class="mt-5">Available tests</h5>
   
          <figures class="imghvr-push-up"><img class=" p-5 " src="{% static 'img/icons8-microscope-60.png' %}" alt="example-image">
@@ -190,7 +190,7 @@
         </div>
         
          <div class="col-lg-3  col-md-6 col-sm-6 col-6 mb-4  ">
-          <a class="linking" href="">
+          <a class="linking" href="{%url 'packages' %}">
           <h5 class="mt-5">Health package</h5>
   
            <figures class="imghvr-push-up"><img class=" p-5 " src="{% static 'img/icons8-first-aid-box-60.png' %}" alt="example-image">
@@ -318,7 +318,7 @@
                       </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
-                  <a class="linking" href="../html/ayushsilverplan.html">
+                  <a class="linking" href="{%url 'ayushsilverplan' %}">
                   <figure>
                     <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
                     <h5 class="Package ">Ayush Silver plan 
@@ -550,8 +550,12 @@
           <h5>Make an appointment</h5>
           <p>call +910278678 or click Book Now to secure your appointment</p>
       </div>
+
       <div class="col-lg-2 col-md-12 col-sm-12  col-12">       
-             <button class="  Book  ">Book Now</button>
+        <a class="linking" href="{%url 'bookanappointment' %}">
+          <button class="  Book  ">Book Now</button>
+        </a>
+
       </div>
       <div class="col-lg-1 col-md-12 col-sm-12  col-12 line "><img src="{% static 'img/icons8-clock-60.png' %}" alt=""></div>
       <div class="col-lg-4 col-md-12 col-sm-12  col-12 Hours ">
