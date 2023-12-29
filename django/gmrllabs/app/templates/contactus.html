@@ -122,6 +122,9 @@
 <!-- contact 2 -->
 <section class="bgcolo mt-3">
 <div class="container mt-3 ">
+  <form action="" method="POST">
+    {% csrf_token %}
+
   <div class="row mb-5">
     <div class="col-lg-4 mt-5 pt-5 mb-5">
       <img class="w-100 me-5"  src="{% static 'img/bloodtest.png' %}" alt="">
@@ -132,32 +135,33 @@
       <div class="row">
         <div class="col-lg-5">
           <form action="">
-            <input type="text" class="form-control" placeholder="Your name">
+            <input type="text" class="form-control" placeholder="Your name" name="name" required>
           </form>
         </div>
         <div class="col-lg-5">
-          <input type="email" class="form-control" placeholder="Email">
+          <input type="email" class="form-control" placeholder="Email" name="email"  required>
 
         </div>
       </div>
       <div class="row mt-4">
         <div class="col-lg-5">
-          <input type="text" class="form-control" placeholder="Phone">
+          <input type="text" class="form-control" placeholder="Phone" name="phone"  required>
 
         </div>
         <div class="col-lg-5">
-          <input type="text" class="form-control" placeholder="Subject">
+          <input type="text" class="form-control" placeholder="Subject" name="subject"  required>
 
         </div>
       </div>
       <div class="row">
         <div class="col-lg-10  larges mt-2">
-          <textarea name="message " id="" cols="68" rows="5" placeholder="message"></textarea>    
+          <textarea name="message" id="" cols="68" rows="5" placeholder="message"  required></textarea>    
         </div>
       </div>
       <button class="large">Submitt</button>
     </div>
   </div>
+</form>
 </div>
 </section>
 <!-- contact 3 -->
@@ -186,7 +190,9 @@
           <p>call +910278678 or click Book Now to secure your appointment</p>
       </div>
       <div class="col-lg-2 col-md-12 col-sm-12  col-12">       
-             <button class="  Book  ">Book Now</button>
+        <a class="linking" href="{%url 'bookanappointment' %}">
+          <button class="  Book  ">Book Now</button>
+        </a>             
       </div>
       <div class="col-lg-1 col-md-12 col-sm-12  col-12 line "><img src="{% static 'img/icons8-clock-60.png' %}" alt=""></div>
       <div class="col-lg-4 col-md-12 col-sm-12  col-12 Hours ">

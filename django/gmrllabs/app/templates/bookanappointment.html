@@ -98,35 +98,34 @@
             <h2>Book a Home Visit</h2>
             <p class="personalized">Experience personalized care with our expert team—schedule your appointment for comprehensive health assessments and proactive well-being.</p>      
         </div>
+        <form action="" method="POST">
+          {% csrf_token %}
+
         <div class="row appointment">
             <div class="col-lg-8">
                 <p>Your name</p>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="name" required>
             </div>
         </div>
         <div class="row appointment">
             <div class="col-lg-4">
                 <p>phone</p>
-              <form action="">
-                <input type="text" class="form-control" placeholder="">
-              </form>
+                <input type="text" class="form-control" placeholder="" name="phone" required>
             </div>
             <div class="col-lg-4">
                 <p>Email</p>
-              <input type="email" class="form-control" placeholder="">
+              <input type="email" class="form-control" placeholder="" name="email" required>
     
             </div>
           </div>
           <div class="row appointment">
             <div class="col-lg-4">
                 <p>Date</p>
-              <form action="">
-                <input type="text" class="form-control" placeholder="">
-              </form>
+                <input type="date" class="form-control" placeholder="" name="date" required>
             </div>
             <div class="col-lg-4">
                 <p>Time</p>
-              <input type="email" class="form-control" placeholder="">
+              <input type="time" class="form-control" placeholder="" name="time" required>
     
             </div>
           </div>
@@ -134,15 +133,15 @@
           <div class="row appointment">
             <div class="col-lg-4">
                 <p>Gender</p>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" aria-label="Default select example" name="gender" required>
                     <option value="1">Male</option>
                     <option value="2">Female</option>
                     <option value="3">Other</option>
-                  </select>
+                </select>
             </div>
             <div class="col-lg-4">
                 <p>Age</p>
-              <input type="email" class="form-control" placeholder="">
+              <input type="number" class="form-control" placeholder="" name="age" required>
     
             </div>
           </div>
@@ -150,18 +149,19 @@
           <div class="row appointment">
             <div class="col-lg-5   mt-2">
                 <p>Address</p>
-              <textarea name="Address " id="" cols="65" rows="3" placeholder=""></textarea>    
+              <textarea  id="" cols="65" rows="3" placeholder="" name="address" required></textarea>    
             </div>
           </div>
 
           <div class="row  appointment">
             <div class="col-lg-5   mt-2">
                 <p>message</p>
-              <textarea name="message " id="" cols="65" rows="3" placeholder=""></textarea>    
+              <textarea  id="" cols="65" rows="3" placeholder="" name="message" required></textarea>    
             </div>
           </div>
           <div class="col-lg-8 centersub"><button class="Submit">Submit</button>
           </div>
+        </form>
     </div>
 </div>
 <!-- footer -->
@@ -175,7 +175,9 @@
           <p>call +910278678 or click Book Now to secure your appointment</p>
       </div>
       <div class="col-lg-2 col-md-12 col-sm-12  col-12">       
-             <button class="  Book  ">Book Now</button>
+        <a class="linking" href="{%url 'bookanappointment' %}">
+          <button class="  Book  ">Book Now</button>
+        </a>             
       </div>
       <div class="col-lg-1 col-md-12 col-sm-12  col-12 line "><img src="{% static 'img/icons8-clock-60.png' %}" alt=""></div>
       <div class="col-lg-4 col-md-12 col-sm-12  col-12 Hours ">

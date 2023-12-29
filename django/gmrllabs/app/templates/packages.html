@@ -97,7 +97,7 @@
         <div class="row mb-5 pb-5">
             <div class="hover01 column  mt-5 pt-5 mb-5">
       
-            <div class="col-lg me-5 p-5 bgimg">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 me-5 p-5 bgimg">
                 <div>
                     <figure ><img  class="w-100 welcome" src="{% static 'img/banner-01.jpg' %}"  /><h5 class="Package  ">Executive Package <i class="fa fa-chevron-right bulletts mt-3"></i> </h5>  
                     </figure>         
@@ -109,7 +109,7 @@
                   </div>
             </div>
       
-            <div class="col-lg ms-5 p-5 me-5">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 ms-5 p-5 me-5">
               <div>
                 <figure><img class="w-100 welcome" src="{% static 'img/banner-02.jpg' %}" /><h5 class="Package">Ayush General<i class="fa fa-chevron-right bulletts mt-3"></i> </h5></figure>
               </div>
@@ -121,7 +121,7 @@
       
               </div>
       
-              <div class="col-lg ms-5 p-5">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4 ms-5 p-5">
                 <div>
                     <figure><img class="w-100 welcome" src="{% static 'img/bloodtest.png' %}" /><h5 class="Package">Ayush Silver plan <i class="fa fa-chevron-right bulletts mt-3"></i> </h5></figure>
                   </div>
@@ -137,7 +137,7 @@
       
       
         <div class="row mt-5 pt-5 mb-5 pb-5 hover01 column">
-          <div class="col-lg-5 me-5 p-5  mt-5 pt-5 ">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4 me-5 p-5  mt-5 pt-5 ">
             <div>
                 <figure><img class="w-100 welcome" src="{% static 'img/banner-02.jpg' %}" /><h5 class="Package p-2">Ayush Diabetic&kidney care <i class="fa fa-chevron-right bulletts mt-3"></i> </h5>  
                 </figure>         
@@ -148,7 +148,7 @@
                 </a>
                 </div>
         </div>
-        <div class="col-lg-5 ms-5 p-5 mt-5">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 ms-5 p-5 mt-5">
           <div>
               <figure><img class="w-100 welcome" src="{% static 'img/banner-02.jpg' %}" /><h5 class="Package">Ayush Gold <i class="fa fa-chevron-right bulletts mt-3"></i> </h5></figure>
             </div>
@@ -178,7 +178,9 @@
           <p>call +910278678 or click Book Now to secure your appointment</p>
       </div>
       <div class="col-lg-2 col-md-12 col-sm-12  col-12">       
-             <button class="  Book  ">Book Now</button>
+        <a class="linking" href="{%url 'bookanappointment' %}">
+          <button class="  Book  ">Book Now</button>
+        </a>             
       </div>
       <div class="col-lg-1 col-md-12 col-sm-12  col-12 line "><img src="{% static 'img/icons8-clock-60.png' %}" alt=""></div>
       <div class="col-lg-4 col-md-12 col-sm-12  col-12 Hours ">
