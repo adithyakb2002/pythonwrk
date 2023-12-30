@@ -25,3 +25,10 @@ class Appointment(models.Model):
       address=models.TextField()
       date=models.DateField(null=True)
       time=models.TimeField()
+
+class Packages(models.Model):
+      image=models.ImageField(upload_to='img')
+      description=models.CharField(max_length=255)
+
+      def ___str__(self):
+            return self.description

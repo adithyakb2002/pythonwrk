@@ -299,57 +299,62 @@
         <button class="viewmore mt-5  p-2">view more</button>
      </div>
         </div>
+
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
+
               <div class="row">
-                <div class="hover01 column  ">
-    
+                <div class="hover01 column">
+                  {% for i in obj %}
+
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
-                  <a class="linking" href="../html/executivepackage.html">
+                  <a class="linking" href="{%url 'ayushsilverplan' %}">
                     <div>
                   <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Executive Package
-                       <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package">{{i.description}}
                        </h5>  
                   </figure>
                 </div>
-                      </a>
+                </a>
                 </div>
+             <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">  
+                  <a class="linking" href="{%url 'ayushsilverplan' %}">
+                  <figure>
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package">{{i.description}}
+                      </h5>  
+                  </figure>
+                </a>
+                </div> 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="{%url 'ayushsilverplan' %}">
                   <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Ayush Silver plan 
-                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
-                     </h5>  
-                  </figure>
-                </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
-                  <a class="linking" href="../html/diabeticandkidney.html">
-                  <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Ayush Diabetic&kidney care 
-                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i>  -->
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package ">{{i.description}}
                     </h5>  
                   </figure>
                 </a>
-                </div>
-              </div>    
+                </div>   -->
+                {% endfor %} 
+
+              </div>  
+  
               </div>
+              
+
             </div>
-            <div class="carousel-item">
+            </div>
+            <!-- <div class="carousel-item"> 
               <div class="row">
                 <div class="hover01 column  ">
     
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="../html/ayushgeneral.html">
                   <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Ayush General 
-                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package ">{{i.description}}
                      </h5>  
                   </figure>
                 </a>
@@ -357,9 +362,8 @@
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4  bgimg">
                   <a class="linking" href="../html/ayushgold.html">
                   <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Ayush Gold
-                       <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package ">{{i.description}}
                        </h5>  
                   </figure>
                 </a>
@@ -367,20 +371,21 @@
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4  bgimg">
                   <a class="linking" href="../html/executivepackage.html">
                   <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Executive Package 
-                      <!-- <i class="fa fa-chevron-right bulletts mt-3"></i> -->
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package ">{{i.description}}
                      </h5>  
                   </figure>
                 </a>
                   </div>
                 </div>
                 </div>
-               </div>
+               </div>  -->
                
-          </div>
-        </div>  
+          </div> 
+     
+
       </div> 
+
       <!-- sec6 -->
       <section class="Comprehensive">
         <div class="container mb-5 pb-5  mt-5">

@@ -4,6 +4,10 @@ from . models import *
 
 
 def index(request):
+    context={}
+
+    obj=Packages.objects.all()
+    context['obj']=obj
     if request.method=="POST":
         name=request.POST.get('name')
         email=request.POST.get('email')
@@ -14,13 +18,20 @@ def index(request):
             details=Index.objects.create(name=name,email=email,phone=phone,message=message)
             details.save()
             return  redirect('index')
-    return render(request,'index.html')
+    return render(request,'index.html',context)
 
 
 def aboutus(request):
     return render(request,'aboutus.html')
+
 def packages(request):
-    return render(request,'packages.html')
+    context={}
+
+    obj=Packages.objects.all()
+    context['obj']=obj
+    return render(request,'packages.html',context)
+
+
 def department(request):
     return render(request,'department.html')
 def blog(request):
@@ -42,7 +53,6 @@ def contactus(request):
         message=request.POST.get('message')
 
         if request.POST:
-            # print(message)
             details=Contact.objects.create(name=name,email=email,phone=phone,message=message,subject=subject)
             details.save()
             return  redirect('contactus')
