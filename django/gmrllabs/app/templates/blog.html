@@ -96,11 +96,15 @@
     <div class="container mb-5">
         <div class="row mb-5 pb-5">
           <div class="hover01 column  mt-5 pt-5 mb-5">
-      
-          <div class="col-lg me-5 p-5 bgimg">
+            {% for i in obj %}
+          <div class="col-lg-4 me-2 p-5 mb-5 bgimg">
               <div>
-                  <figure ><img  class="w-100 welcome" src="{% static 'img/banner-01.jpg' %}"  /><p class="Package  ">Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized Medicine<i class="fa fa-chevron-right bulletts mt-3"></i> </p>  
-                  </figure>         
+                  <figure ><img  class="w-100 welcome" src="{{i.image.url}}"/>
+                    <p class="Package">
+                      {{i.description}}
+                      <i class="fa fa-chevron-right bulletts mt-3"></i>
+                     </p>  
+                  </figure>                                                               
               </div>
               <div class="overlay">
                 <a class="icon">
@@ -108,7 +112,7 @@
                 </a>
                 </div>
           </div>
-      
+<!--       
           <div class="col-lg ms-5 p-5 me-5">
             <div>
               <figure><img class="w-100 welcome" src="{% static 'img/banner-02.jpg' %}" /><p class="Package">Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized Medicine<i class="fa fa-chevron-right bulletts mt-3"></i> </p></figure>
@@ -119,7 +123,8 @@
                 </a>
                 </div>
       
-            </div>
+            </div> -->
+            {%endfor%}
           </div>
       </div>
       

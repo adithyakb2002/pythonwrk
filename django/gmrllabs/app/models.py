@@ -32,3 +32,14 @@ class Packages(models.Model):
 
       def ___str__(self):
             return self.description
+
+class Blog(models.Model):
+      image=models.ImageField(upload_to='img')
+      description=models.CharField(max_length=255)
+
+class Branches(models.Model):
+      images=models.ImageField(upload_to='img')
+      descriptions=models.CharField(max_length=255)
+      
+class Gallery(models.Model):
+      images=models.ImageField(upload_to='img')

@@ -95,9 +95,10 @@
 <!-- gallery -->
 <div class="container mt-5 pt-5">
     <div class="row">
+      {% for i in obj %}
       <div class="col-lg-3 ">
         <dl class="direction-aware-hover me-5 p-5">
-          <img class="w-100 " src="{% static 'img/banner-01.jpg' %}" alt="">
+          <img class="w-100 " src="{{i.images.url}}" alt="">
   
           <dt class="direction-aware-hover__left"></dt>
           <dt class="direction-aware-hover__right"></dt>
@@ -110,7 +111,8 @@
           </dd>
         </dl>
       </div>
-      <div class="col-lg-3 ">
+      <!-- <div class="col-lg-3 ">
+
         <dl class="direction-aware-hover ">
           <img class="w-100" src="{% static 'img/banner-02.jpg' %}" alt="">
   
@@ -271,9 +273,10 @@
       </div>
     
   
-    </div>
+    </div> -->
+    {%endfor%}
   </div>
-  
+</div>
    <!-- footer -->
 <footer>
   <div class="container-fluid ">

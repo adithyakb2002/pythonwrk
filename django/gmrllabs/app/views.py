@@ -34,12 +34,27 @@ def packages(request):
 
 def department(request):
     return render(request,'department.html')
+
 def blog(request):
-    return render(request,'blog.html')
+    context={}
+
+    obj=Packages.objects.all()
+    context['obj']=obj
+    return render(request,'blog.html',context)
+
 def gallery(request):
-    return render(request,'gallery.html')
+    context={}
+
+    obj=Gallery.objects.all()
+    context['obj']=obj
+    return render(request,'gallery.html',context)
+
 def branches(request):
-    return render(request,'branches.html')
+    context={}
+
+    obj=Branches.objects.all()
+    context['obj']=obj
+    return render(request,'branches.html',context)
 
 
 

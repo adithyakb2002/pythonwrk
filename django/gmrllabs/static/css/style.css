@@ -371,8 +371,6 @@ figure:hover+span {
 .welcome:hover{
 	opacity: 0.3;
 }
-
-
 /* Zoom In #1 */
 .hover01 figure img ,.Package{
 	-webkit-transform: scale(1);

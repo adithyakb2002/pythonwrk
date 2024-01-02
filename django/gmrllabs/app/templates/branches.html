@@ -96,10 +96,13 @@
     <div class="container ">
         <div class="row mb-5 pb-5">
             <div class="hover01 column  mt-5 pt-5 mb-5">
-      
+              {% for i in obj %}
             <div class="col-lg me-5 p-5 bgimg">
                 <div>
-                    <figure ><img  class="w-100 welcome" src="{% static 'img/banner-01.jpg' %}"  /><h5 class="Package ">Gmrl Laboratories:chambakkara <i class="fa fa-chevron-right bulletts"></i> </h5>  
+                    <figure ><img  class="w-100 welcome" src="{{i.images.url}}"/>
+                      <h5 class="Package">{{i.descriptions}}
+                        <i class="fa fa-chevron-right bulletts"></i> 
+                      </h5>  
                     </figure>         
                 </div>
                 <div class="overlay">
@@ -109,7 +112,7 @@
                   </div>
             </div>
       
-            <div class="col-lg ms-5 p-5 me-5">
+            <!-- <div class="col-lg ms-5 p-5 me-5">
               <div>
                 <figure><img class="w-100 welcome" src="{% static 'img/banner-01.jpg' %}" /><h5 class="Package ">Gmrl Laboratories:kolenchery<i class="fa fa-chevron-right bulletts"></i> </h5></figure>
               </div>
@@ -147,18 +150,17 @@
                   <i class="fa fa-chain" style="font-size:36px;"></i>
                 </a>
                 </div>
-        </div>
-        
-      
-        </div>
+         </div> - -->
+             {%endfor%}
+             </div>
       
         </div> 
-      
+    </div>
       
         <div class="container mt-5 pt-5 pb-5 mb-5">
       <div class="row mb-5 mt-5"></div>
         </div>   
-         <!-- footer -->
+<!-- footer -->
 <footer>
   <div class="container-fluid ">
     <div class="row smallsec">
