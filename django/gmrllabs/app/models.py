@@ -43,3 +43,15 @@ class Branches(models.Model):
       
 class Gallery(models.Model):
       images=models.ImageField(upload_to='img')
+
+class Ayushsilverplan(models.Model):
+      name=models.CharField(max_length=50)
+      t1=models.CharField(max_length=50)
+      t2=models.CharField(max_length=50)
+      t3=models.CharField(max_length=50)
+      t4=models.CharField(max_length=50)
+      t5=models.CharField(max_length=50)
+      cost=models.CharField(max_length=50)
+
+      image=models.ImageField(upload_to='img')
+      package=models.ForeignKey(Packages,on_delete=models.CASCADE)

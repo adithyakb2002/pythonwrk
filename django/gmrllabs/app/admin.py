@@ -21,6 +21,9 @@ class Branches_display(admin.ModelAdmin):
 class Gallery_display(admin.ModelAdmin):
     list_display=['images']
 
+class Ayushsilverplan_display(admin.ModelAdmin):
+    list_display=['image','t1','t2','t3','t4','t5','name','cost']
+
 
 admin.site.register(Index,Index_display)
 admin.site.register(Contact,Contact_display)
@@ -29,3 +32,4 @@ admin.site.register(Packages,Packages_display)
 admin.site.register(Blog,Blog_display)
 admin.site.register(Branches,Branches_display)
 admin.site.register(Gallery,Gallery_display)
+admin.site.register(Ayushsilverplan,Ayushsilverplan_display)

@@ -13,7 +13,8 @@ urlpatterns = [
        path('contactus',views.contactus,name='contactus'),
        path('bookanappointment',views.bookanappointment,name='bookanappointment'),
        path('test',views.test,name='test'),
-       path('ayushsilverplan',views.ayushsilverplan,name='ayushsilverplan'),
+       path('ayushsilverplan/<int:id>/',views.ayushsilverplan,name='ayushsilverplan'),
+       path('subblog',views.subblog,name='subblog'),
 
 ]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
 

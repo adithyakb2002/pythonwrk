@@ -94,27 +94,29 @@
 <!-- ourpackages -->
 <div class="container ">
     <div class="row">
+      {% for i in plan %}
         <div class="col-lg-9 mt-5">
-            <h2 class="Executive me-5 ">Ayush Silver Plan</h2>
-            <p><i class="fa fa-circle "></i>Blood Sugar</p>
-            <p><i class="fa fa-circle "></i>Lipid Profile</p>
-            <p><i class="fa fa-circle "></i>Liver Function Test</p>
-            <p><i class="fa fa-circle "></i>Kidney Function Test</p>
-            <p><i class="fa fa-circle "></i>Thyroid – TSH</p>
-            <p><i class="fa fa-circle "></i>HbA1c -*( Three Months Average of Diabetes)</p>
+            <h2 class="Executive me-5 ">{{i.name}}</h2>
+            <p><i class="fa fa-circle "></i>{{i.t1}}</p>
+            <p><i class="fa fa-circle "></i>{{i.t2}}</p>
+            <p><i class="fa fa-circle "></i>{{i.t3}} </p>
+            <p><i class="fa fa-circle "></i>{{i.t4}}</p>
+            <p><i class="fa fa-circle "></i>{{i.t5}}</p>
+            <!-- <p><i class="fa fa-circle "></i>HbA1c -*( Three Months Average of Diabetes)</p>
             <p><i class="fa fa-circle "></i>Blood Routine</p>
-            <p><i class="fa fa-circle "></i>Urine Routine</p>
+            <p><i class="fa fa-circle "></i>Urine Routine</p> -->
             
-<p>Note: Fasting Sample is Preferred</p>
+         <p>Note: Fasting Sample is Preferred</p>
         </div>
         <div class="col-lg-3 mt-5 pt-5">
-            <button class="money mb-3">From:$2000</button>
-            <img src="{% static 'img/bloodtest.png' %}" alt="">
+            <button class="money mb-3">From:${{i.cost}}</button>
+            <img src="{{i.image.url}}" alt="">
         </div>
+        {%endfor%}
     </div>
 </div>
 <!-- ourpackage 3 -->
-<div class="container-fluid leftside">
+<div class="container-fluid ms-5 ps-5">
     <div class="row">
       <div class="col-lg-8 mt-5 "><h2 class="Unveiling">GMRL Laboratories:  <div class="col-lg"><h2 class="Unveiling">Unveiling Our Range of Health Packages</h2></div>   </h2></div>   
  <div class="col-lg-4 mt-5 pt-5 mb-5">
@@ -128,16 +130,11 @@
             <div class="hover01 column mt-5 pt-5 mb-5 ">
 
             <div class="col-lg-4 bgimg">
-              <a class="linking" href="{%url 'ayushsilverplan' %}">
               <figure>
                 <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
                 <h5 class="Package ">Executive Package <i class="fa fa-chevron-right bulletts mt-3"></i> </h5>  
               </figure>
-                  <!-- <div class="overlay">
-                    <a class="icon">
-                      <i class="fa fa-chain" style="font-size:36px;"></i>
-                    </a>
-                    </div> -->
+                  
                   </a>
             </div>
             <div class="col-lg-4 bgimg">

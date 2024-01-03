@@ -96,8 +96,19 @@ def bookanappointment(request):
             return  redirect('bookanappointment')
     return render(request,'bookanappointment.html')
 
+def ayushsilverplan(request,id):
+    context={}
 
-def ayushsilverplan(request):
-    return render(request,'ayushsilverplan.html')
+    obj=Packages.objects.all()
+    plan=Ayushsilverplan.objects.filter(package=id)
+    context['plan']=plan
+    context['obj']=obj
+    return render(request,'ayushsilverplan.html',context)
+
+
+
+def subblog(request):
+    return render(request,'subblog.html')
+
 
 # Create your views here.

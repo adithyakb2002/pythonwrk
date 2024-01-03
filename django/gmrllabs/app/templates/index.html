@@ -305,9 +305,10 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="100">
+
               <div class="row">
                 <div class="hover01 column">
-    
+<!-- 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="../html/executivepackage.html">
                     <div>
@@ -318,19 +319,22 @@
                   </figure>
                 </div>
                       </a>
-                </div>
+                </div>  -->
 
+                <!-- {% for i in obj %}
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="../html/ayushsilverplan.html">
                   <figure>
-                    <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
-                    <h5 class="Package ">Ayush Silver plan 
+                    <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
+                    <h5 class="Package ">{{i.description}}
                      </h5>  
                   </figure>
                 </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                {%endfor%} -->
+
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="../html/diabeticandkidney.html">
                   <figure>
                     <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
@@ -338,16 +342,18 @@
                     </h5>  
                   </figure>
                 </a>
-                </div>
+                </div> -->
 
               </div>    
               </div>
+
             </div>
             
-            {% for i in obj %}
+          
             <div class="carousel-item">
               <div class="row">
-
+                {% for i in obj %}
+                
                 <div class="hover01 column  ">
                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="{%url 'ayushsilverplan'%}">
@@ -358,7 +364,7 @@
                   </figure>
                 </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="../html/ayushgeneral.html">
                   <figure>
                     <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
@@ -366,8 +372,8 @@
                      </h5>  
                   </figure>
                 </a>
-                </div> 
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
+                </div>  -->
+                 <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-4 bgimg">
                   <a class="linking" href="../html/ayushgeneral.html">
                   <figure>
                     <img class="w-100 welcome"  src="{{i.image.url}}" alt="">
@@ -375,12 +381,13 @@
                      </h5>  
                   </figure>
                 </a>
+                </div> -->
                 </div>
-                </div>
+                {%endfor%} 
+
                 </div>
                </div>
-               {%endfor%}
-
+              
           </div>
         </div>  
       </div>   
