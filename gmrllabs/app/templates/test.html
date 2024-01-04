@@ -1,0 +1,398 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<body>
+    <div class="navbg fixed-top bg-light">
+        <div class="container">
+               
+                      
+          <div class="row pt-4">
+              <div class="col-lg-2 col-sm-5 col-md-5 col-5 ">
+                <a class="navbar-brand" href="{%url 'index' %}"><img class="w-100 " src="{% static 'img/gmrl-logo.svg' %}" alt=""></a>
+              </div>
+              <div class="col-lg col-sm-6 col-md-9 col-12">
+      
+              </div>
+              <div class="col-lg-12 col-sm-4 col-md-4 col-4 ">
+          <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <div class="col-lg-4  col-md-6 col-sm-9 col-12">
+            <button class="navbar-toggler text-dark   col-md-6 col-sm-9 col-12 ms-5 ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon  col-md-6 col-sm-9 col-12 ms-5 ps-5"></span>
+            </button>
+          </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-2 mb-lg-0 nav2 ">
+                
+                <li class="nav-item">
+                  <a class=" ab  nav-t link" aria-current="page" href="{%url 'aboutus' %}">About Us</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page " href="{%url 'packages' %}" >Package</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'test' %}">Test</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'blog' %}">Blog</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'gallery' %}">Gallery</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'branches' %}">Branches</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                  <a class=" abc nav-t link" aria-current="page" href="{%url 'contactus' %}">Contact us</a>
+                </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </ul>
+            </div>
+          
+          </div>
+        </nav>
+      </div>
+      </div>
+      </div>
+      </div>
+    <!-- about1 -->
+    <div class="container-fluid">
+        <div class="row demo">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12  Health ">
+                <h2 class="Labs me-5">Test</h2>
+                <div class="ms-5 ps-5 lab ">
+                    <p class="ms-5 ps-5">GMRL Labs: Tripunithura's hub for affordable Health Check Ups</p>
+                    <p class="ms-5  ps-5">ith cutting-edge analyzers, prioritizing your well-being</p>
+        
+                </div>
+         </div>
+            <div class="col-lg-6 col-md-12 col-sm-12  col-12 img1">
+             
+                  <img class="w-100" src="{% static 'img/hand-with-protective-gloves-holding-blood-samples-covid-test_23-2148958363.avif' %}" alt="">
+      
+           
+            
+          </div>
+      
+    </div>
+    </div>
+    <!-- test1 -->
+<div class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <h4 class="tittles">HAEMATOLOGY</h4>
+            <h4 class="tittle">COMPLETE BLOOD COUNT(CBC)</h4>
+            <p>Hb</p>
+            <p class="bluebox">TC</p>
+            <p>DC</p>
+            <p  class="bluebox">ESR</p>
+            <p>Platelet Count</p>
+            <p  class="bluebox">AEC</p>
+            <p>Retics Peripheral Blood Film (PBF)</p>
+            <p  class="bluebox">Malarial Parasite (MP)</p>
+            <p>MF</p>
+            <p  class="bluebox">LE Cells</p>
+            <p>Group Rh</p>
+            <p  class="bluebox">Mantoux</p>
+            <p>CT</p>
+            <p  class="bluebox">PTINR</p>
+            <p>APTT</p>
+            <p  class="bluebox">PT Index</p>
+            <p>Coagulation Profile</p>
+            <p  class="bluebox">ICT</p>
+            <p>DC</p>
+            <p  class="bluebox">Lupus Anticoagulants</p>
+            <p>Hb Electrophoresis</p>
+            <p  class="bluebox">Protein Electrophoresis</p>
+<h4 class="tittle">URINE</h4>
+<p>Urine Complete Examination</p>
+<p  class="bluebox">Albumin</p>
+<p>Sugar</p>
+<p  class="bluebox">ME</p>
+<p>PREGNANCY TEST</p>
+<p  class="bluebox">Acetone/ PH/ Specific Gravity</p>
+<p>Bile Salt</p>
+<p  class="bluebox">Bile Pigment</p>
+<p>Protein (24Hrs.)</p>
+<p  class="bluebox">Urobilinogen</p>
+<p>Creatinine Clearance (24 Hrs.)</p>
+<p  class="bluebox">Protein Creatinine Ratio (Spot urine)</p>
+<p>Bence Jones Protein</p>
+<p  class="bluebox">VMA (24Hrs.)</p>
+<h4 class="tittle">STOOL</h4>
+<p>Stool Routine examination</p>
+<p  class="bluebox">PH</p>
+<p>Occult Blood</p>
+<p  class="bluebox">Reducing Substance</p>
+<h4 class="tittle">SEMEN ANALYSIS</h4>
+<P>Detailed Semen Examination</P>
+<P  class="bluebox">Semen Fructose</P>
+<h4 class="tittle">MICROBIOLOGY</h4>
+<h4 class="tittle">CULTURE AND SENSITIVITY</h4>
+<p>Urine</p>
+<p  class="bluebox">Blood</p>
+<p>Stool</p>
+<p  class="bluebox">Sputum</p>
+<p>Conj-Swab</p>
+<p  class="bluebox">Pus</p>
+<p>Throat Swab</p>
+<p  class="bluebox">Semen</p>
+<p>Gramsstain</p>
+<p  class="bluebox">Scraping for Fungus</p>
+<p>AFB Culture</p>
+<p  class="bluebox">AFB Stain</p>
+
+        </div>
+        <div class="col-lg-4">
+          <h4 class="tittle">HAEMATOLOGY</h4>
+          <h4 class="tittle">DIABETIC PANEL</h4>
+          <p>Fasting</p>
+          <p  class="bluebox">PPBS</p>
+          <p>RANDOM</p>
+          <p  class="bluebox">GTT-F 100gm(lhr/2hr/3hr)</p>
+          <p>GTT-F 75 gm ( 1/2 hr/ lhr/ V/2 hr/ 2hr)</p>
+          <p  class="bluebox">Glucose Challenge test (GCT) lhr.50gm glu</p>
+          <p>Glucose Challenge test (GCT) 2hr.75gm glu</p>
+          <p  class="bluebox">HBA1C (GLYCOSILATED Hb)
+          </p>
+          <p>Microalbuminuria</p>
+          <p  class="bluebox">Microalbumin to Creatinine Ratio</p>
+<h4 class="tittle">LIPID PROFILE</h4>         
+          <p>Cholesterol</p>
+          <p  class="bluebox">Triglycerides</p>
+          <p>HDL</p>
+          <p  class="bluebox">LDL</p>
+<h4 class="tittle">LIVER FUNCTION TEST (LFT)</h4>          
+          <p>Bilirubin</p>
+          <p  class="bluebox">Total</p>
+          <p>Direct</p>  
+          <p  class="bluebox">SGOT</p>
+          <p>SGPT</p>
+          <p  class="bluebox">Alkaline Phosphatase</p>
+          <p>Protein</p>
+          <p  class="bluebox">Albumin</p>
+          <p>Globulin</p>
+<h4 class="tittle">SERUM ELECTROLYTES</h4>
+<p  class="bluebox">Sodium</p>
+<p>Pottasium</p>
+<p  class="bluebox">Chloride</p>
+<p>Bicarbonate</p>
+<h4 class="tittle">KIDNEY FUNCTIONS</h4>
+<p  class="bluebox">Urea</p>
+<p>Creatinine</p>
+<p  class="bluebox">Uric Acid</p>
+<h4 class="tittle">CARDIAC ENZYMES</h4>
+<P>CK</P>
+<P  class="bluebox">CK-MB</P>
+<p>LDH</p>
+<p  class="bluebox">Troponin 1</p>
+
+<h4 class="tittle"> OTHERS</h4>
+<p>Calcium</p>
+<p  class="bluebox">Phosphorous</p>
+<p>Magnesium</p>
+<p  class="bluebox">Ferritin</p>
+<p>lron</p>
+<p  class="bluebox">TIBC</p>
+<p>Gamma GT</p>
+<p  class="bluebox">Lipase</p>
+<p>Amylase</p>
+<p  class="bluebox">Ammonia</p>
+<p>Vit D</p>
+<p  class="bluebox">Vit B12</p>
+<p>Ceruloplasmin</p>
+<p  class="bluebox">Lithium</p>
+<p>IL-6</p>
+<p  class="bluebox">Direct LDL</p>
+</div>
+        <div class="col-lg-4">
+          <h4 class="tittle">TORCH PANEL</h4>
+          <p>Toxoplasma</p>
+          <p  class="bluebox">Rubella</p>
+          <p>CMV</p>
+          <p  class="bluebox">HSV I &-Il</p>
+          <p>HSVI</p>
+          <p  class="bluebox">HSVII</p>
+          <h4 class="tittle">HEPATITIS PANEL</h4>
+          <p>HBsAg (ELISA)</p>
+          <p  class="bluebox">AntiHCV (ELISA)</p>
+          <p>Anti HCV(Card)</p>
+          <p  class="bluebox">Anti HAV IgM</p>
+          <p>Anti HAV Igg</p>
+          <p  class="bluebox">AntiHbs Total</p>
+          <p>AntiHEV IgM</p>
+          <p  class="bluebox">AntiHbe Total</p>
+          <p>Hbe Ag</p>
+          <p  class="bluebox">AntiHbe Total</p>
+          <p>Anti Hbc IgM</p>
+          <h4 class="tittle">TUMOUR MARKERS</h4>
+          <p>CEA</p>
+          <p  class="bluebox">AFP</p>
+          <p>CA 19.9</p>
+          <p  class="bluebox">CA 125</p>
+          <p>CA 15.3</p>
+          <p  class="bluebox">PSA</p>
+          <p>Free PSA</p>
+          <p  class="bluebox">Beta HCG</p>
+<h4 class="tittle">HORMONES</h4>
+<p>T3</p>
+<p  class="bluebox">T4</p>
+<p>TSH</p>
+<p  class="bluebox">Free T3</p>
+<p>ATG</p>
+<p  class="bluebox">AMA</p>
+<p>PTH</p>
+<p  class="bluebox">Free T4</p>
+<p>PJAMH</p>
+<p  class="bluebox">AntiCCP Estradiol (E2)</p>
+<p>LHFSH</p>
+<p  class="bluebox">Protein Creatinine Ratio (Spot urine)</p>
+<p>Testosterone</p>
+<p  class="bluebox">Progesterone</p>
+<p>DHEA-S</p>
+<p  class="bluebox">Cortisol</p>
+<p>Anti dS DNA</p>
+<p  class="bluebox">C3</p>
+<P>C4</P>
+<P  class="bluebox">Prolactin DHEA</P>
+<p>Free Testosterone</p>
+<p  class="bluebox">PCOD Profile</p>
+<p>Anti phospholipid IgG, IgM</p>
+<p  class="bluebox">Anti Cardolipin Antibodies IgG, IgM</p>
+<p>Anti Sperm Anti Body (ASAB)</p>
+<p  class="bluebox">Total IgE</p>
+<p>Immunoglobulin IgA, IgG, IgM</p>
+<p  class="bluebox">Thyroglobulin</p>
+<p>Cystatin-C</p>
+<p  class="bluebox">Dual Test (gestation below 13 weeks)</p>
+<p>Triple Marker (gestation 14-20 weeks)</p>
+<p  class="bluebox">Quadruple Test (gestation 14-22 weeks)</p>
+<p>TBPCR (Blood, Urine, Sputum)</p>
+<p  class="bluebox">TB Gold</p>
+<p>ANAIFA</p>
+<p  class="bluebox">ANA Profile</p>
+<h4 class="tittle">ALLERGY PANEL</h4>
+<p>Food Allergens panel (40)</p>
+<p  class="bluebox">Food Allergens panel (20)</p>
+<p>Inhalation Allergens Panel (33)</p>
+<p  class="bluebox">Inhalation Allergens Panel (20)</p>
+<p>Food And Inhalation paediatric</p>
+        </div>
+    </div>
+</div>
+
+    <!-- footer -->
+<footer>
+  <div class="container-fluid ">
+    <div class="row smallsec">
+      <div class="col-lg-1 col-md-12 col-sm-12  col-12"><img class=" me-5 pe-5" src="{% static 'img/icons8-appointments-60.png' %}" alt="">
+      </div>
+      <div class="col-lg-4  col-md-12 col-sm-12  col-12">
+          <h5>Make an appointment</h5>
+          <p>call +910278678 or click Book Now to secure your appointment</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12">       
+        <a class="linking" href="{%url 'bookanappointment' %}">
+          <button class="  Book  ">Book Now</button>
+        </a>             
+      </div>
+      <div class="col-lg-1 col-md-12 col-sm-12  col-12 line "><img src="{% static 'img/icons8-clock-60.png' %}" alt=""></div>
+      <div class="col-lg-4 col-md-12 col-sm-12  col-12 Hours ">
+        <h5>Opening Hours</h5>
+        <p>Mon-Sat: 6am to 6pm</p>
+        <p>Sun:6am to 12:30pm</p>
+      </div>
+  </div>
+
+    <div class="row">
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><img src="{% static 'img/gmrl-logo.svg' %}" alt=""></div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12 "><h5> Quick Links</h5>
+
+        <div class="row">
+          <div class="col-lg col-md-12 col-sm-12  col-12">
+            <p>Home</p>
+            <p>About Us</p>
+           <p>Packages</p> 
+           <p>Departments</p>
+          <p>Gallery</p>
+          <p>Blog</p>
+           <p>Testimonials</p>
+          <p>Branches</p>
+          <p>Contact Us</p>
+          <p>Privacy Policy</p>
+         <p>Terms & Conditions</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><h5>Departments</h5>
+        <div class="row">
+          <div class="col-lg col-md-12 col-sm-12  col-12">
+          <p>Pathology</p>
+           <p>Biochemistry</p>
+         <p>Microbiology</p>
+           <p>Serology</p>
+            <p>Immunology</p>
+            <p>Radiology</p>
+            <p>Molecular Biology</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><h5>Our Packages</h5>
+        <div class="row">
+          <div class="col-lg col-md-12 col-sm-12  col-12">
+          <p>Executive Package</p>
+         <p>Ayush General</p>
+            <p>Ayush Silver Plan</p>
+          <p>yush Diabetic & Kidney Care</p>
+           <p>Ayush Gold</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12  col-12"><h5>Get In Touch</h5>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12  col-12">
+            <p>GMRL Laboratories Chambakkara, Ernakulam, Ernakulam - 682011</p>
+            <p>+91 81388 62626</p>
+            <p>0484 0000 0000</p>
+            <p>info@gmrllabs.com</p>
+          </div>
+          <div class="row ">
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 "><img class="" src="{% static 'img/icons8-instagram-20.png' %}" alt=""></div>
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 "><img src="{% static 'img/icons8-linkedin-20.png' %}" alt=""></div>
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 "><img src="{% static 'img/icons8-twitter-circled-20.png' %}"alt=""></div>
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12"><img src="{% static 'img/icons8-facebook-20.png' %}" alt=""></div>
+          </div>
+  
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+            
+</body>
+</html>

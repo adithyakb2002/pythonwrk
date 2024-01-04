@@ -1,0 +1,170 @@
+.Health{
+    padding-top: 10%;
+    background-color: aliceblue;
+}
+.lab{
+    font-size: 20px;
+}
+.Labs{
+    font-size: 30px; 
+}
+.Book  {
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:black;
+    color: darkolivegreen;
+    border: darkolivegreen ;
+}
+.Book:hover{
+    background-color: rgb(41, 41, 95);
+    
+    color: white;
+}
+.Hours{
+    padding-right: 50px;
+}
+.smallsec{
+    background-color: darkolivegreen;
+
+}
+.line{
+    border-left: 1px solid black;
+}
+.demo>[class*='col-']{
+    padding-right: 0;
+    padding-left: 0;
+}
+/* bookan appointment */
+.Submit{
+    background-color: blue;
+    color: white;
+    /* padding: 10px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Submit:hover{
+    background-color: rgb(95, 139, 29);
+    color: white;
+}
+.personalized{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.appointment{
+    text-align: center;
+    padding-left: 20%;
+}
+.centersub{
+    padding-left:20%;
+    text-align: center;
+}
+
+
+/* department */
+.journey{
+    padding-right: 72%;
+   margin-bottom: 5%;
+   font-weight: 100;
+}
+.Embark{
+    padding-top:8%;
+   
+}
+.expert{
+    background-color: aliceblue;
+}
+
+
+
+/* contactus */
+.phone{
+    border-radius:48%;
+    background-color:blue;
+    color: white;
+}
+.square{
+    border-bottom: 1px solid rgb(16, 16, 95);
+    border-top: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    background-color: rgb(252, 253, 255);
+}
+.phones{
+    border-radius: 49%;
+    background-color:blue;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.phone:hover{
+    color: white;
+    background-color: green;
+}
+.phones:hover{
+    color: white;
+    background-color: green;
+  
+}
+/* .envelope{
+   font-size: 20px;
+   font-weight: 100;
+} */
+.large{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+.bgcolo{
+background-color: aliceblue;
+}
+.whatsapp{
+    background-color: green;
+    border-radius: 48%;
+    padding-left: 35x;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom:15px;
+
+}
+.rightwh{
+    padding-left: 100%;
+
+}
+
+
+/* test */
+.tittle{
+    color: blue;
+}
+.tittles{
+    background-color: green;
+    color: white;
+}
+.bluebox{
+    background-color: rgb(204, 216, 226);
+}
+/* ayush silverplan */
+.money{
+    padding-left: 49%;
+    padding-right: 49%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+color: white;
+    background-color: blue;
+}
+.Executive{
+    padding-right: 70%;
+    font-size: 20px;
+    font-weight: 100;
+}
