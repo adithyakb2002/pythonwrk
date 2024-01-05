@@ -93,43 +93,43 @@
     </div>
     </div>
     <!-- packages2 -->
-    <div class="container pb-5 mb-5">
-
-      <div class="row mb-5 pb-5">
-
-          <div class="hover01 column  mt-5 pt-5 mb-5 ">
-            {% for i in obj %}
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-4 me-5 p-5 bgimg">
-                <div>
-                  <a href="{% url 'ayushsilverplan' i.id %}">
-                    <figure >
-                      <img  class="w-100 welcome" src="{{i.image.url}}" alt="{{i.image}}"/> </a> 
-                      <h5 class="Package" >{{i.description}}
-                        <i class="fa fa-chevron-right bulletts mt-3"></i> 
-                      </h5>  
-                    </figure> 
-                        
-                </div>
-                <div class="overlay">
-                  <a class="icon">
-                    <i class="fa fa-chain" style="font-size:36px;"></i>
-                  </a>
+   
+      <div class="container pb-5 mb-5 mt-5 ">
+  
+        <div class="row mb-5 pb-5 mt-5">
+  
+            <div class="hover01 column  mt-5 pt-5 mb-5 pb-5">
+              {% for i in obj %}
+  
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12   ms-5 mb-5 mt-5 me-5">
+                  <div>
+                    <a class="linking pb-5 mb-5" href="{% url 'ayushsilverplan' i.id %}">
+                      <figure >
+                        <img  class="w-100 welcome" src="{{i.image.url}}" alt="{{i.image}}"/>
+                        <h5 class="Package" >{{i.description}}
+                          <i class="fa fa-chevron-right bulletts mt-3"></i> 
+                        </h5>  
+                      </figure> 
+                    </a>        
                   </div>
+                  <div class="overlay">
+                    <a class="icon">
+                      <i class="fa fa-chain" style="font-size:36px;"></i>
+                    </a>
+                    </div>
+              </div>
+            
+            {% endfor %}
+  
             </div>
-          
-          {% endfor %}
+  
+         </div>
+  
+      </div>  
+            
+<div class="container mt-5 pt-5 mb-5 pb-5">
 
-          </div>
-
-       </div>
-
-    </div> 
-      
-      
-        <div class="container mt-5 pt-5 pb-5 mb-5">
-      <div class="row mb-5 mt-5"></div>
-        </div>
+</div>
  <!-- footer -->
 <footer>
   <div class="container-fluid ">

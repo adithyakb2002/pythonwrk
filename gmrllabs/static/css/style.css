@@ -4,12 +4,10 @@ body{
 
 .heading{
     font-size:50px ; 
-    /* padding-bottom: 10px; */
     font-weight: 100;
 } 
 .vital{
    font-size: 20px;
-   /* padding-bottom: 15px; */
 }
 .trusted{
    font-size: 20px;
@@ -31,11 +29,7 @@ body{
 .visit{
    border: 1px solid black;
 }
-/* .visittp{
-   border-top: 1px solid black;
-   border-bottom: 1px solid black;
 
-} */
 .menu{
    padding-left: 40%;
    color: white;
@@ -53,9 +47,6 @@ body{
    color: black;
   text-decoration: none;
 }
-/* .nav2{
-   padding-left: 15%;
-} */
 
 /* vhgdjhd */
 .col-md-3{
@@ -127,7 +118,7 @@ h2::after {
    float: none !important;
 }
 .carousel {
-   padding: 0 70px;
+   padding: 0 20px;
 }
 .carousel .carousel-item {
    color: #999;
@@ -198,51 +189,29 @@ h2::after {
    text-decoration: none;
    color: black;
 }
-/* iconchain */
-/* .overlay {
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   opacity: 0;
- }
- 
- .container:hover .overlay {
-   opacity: 0.3;
- }
- .icon {
-   color:#fff;
-   position: absolute;
-   bottom: 90%;
-   left: 50%;
-   text-align: center;
- }
- 
- .fa fa-chain:hover {
-   color:#fff;
- } */
+
 /* mediaquery */
 
-@media(max-width:1340px)and(min-width:1312px)
+@media(max-width:1352px)and(min-width:1312px)
 {
    .image1{
-       height:500vh;
+       /* height:10vh; */
+       width:100%;
    }
 }
- /* @media(max-width:1290px)and(min-width:1220px)
+ /* /* @media(max-width:1290px)and(min-width:1220px)
 {
    .image1{
        height: 150vh;
    }
 } */
-/*@media(max-width:1220px)and(min-width:1200px)
+/* @media(max-width:1352px)and(min-width:1312px)
 {
    .image1{
-       height:220vh;
+       height:50vh;
    }
-} 
-*/
+}   */
+
 
 
 
@@ -258,9 +227,9 @@ h2::after {
       position: absolute;
    }
 } */
-.image1{
-   width: 100%;
-}
+/* .image1{
+   width: 50%;
+} */
 
 /* sec3 */
 
@@ -326,9 +295,7 @@ h2::after {
 .imghvr-push-up figcaption {
     transform: translateY(100%);
 }
- /* .creative{
-    color: blue;
- } */
+ 
 
  /* sec5 */
  
@@ -336,7 +303,7 @@ h2::after {
 	position: relative;
 	float: left;
 	width: 400px;
-	height: 400px;
+	height: 600px;
 	margin: 0 0 0 25px;
 	padding: 0;
 } 

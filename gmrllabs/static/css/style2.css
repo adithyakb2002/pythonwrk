@@ -65,14 +65,14 @@
 	transition: .3s ease-in-out;
 	opacity: 0;
 }
-figure,.Package {
-	width: 350px;
+/* figure,.Package {
+	width: 300px;
 	height: 400px;
 	margin: 0;
 	padding: 0;
 	background: #fff;
 	overflow: hidden;
-}
+} */
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;

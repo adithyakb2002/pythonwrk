@@ -97,7 +97,7 @@
         <div class="row mb-5 pb-5">
           <div class="hover01 column  mt-5 pt-5 mb-5">
             {% for i in obj %}
-          <div class="col-lg-4 me-2 p-5 mb-5 bgimg">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-5 ms-3 ">
               <div>
                   <figure >
                     <a href="{%url 'subblog' i.id %}">
@@ -114,18 +114,7 @@
                 </a>
                 </div>
           </div>
-<!--       
-          <div class="col-lg ms-5 p-5 me-5">
-            <div>
-              <figure><img class="w-100 welcome" src="{% static 'img/banner-02.jpg' %}" /><p class="Package">Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized Medicine<i class="fa fa-chevron-right bulletts mt-3"></i> </p></figure>
-            </div>
-              <div class="overlay">
-                <a class="icon">
-                  <i class="fa fa-chain" style="font-size:36px;"></i>
-                </a>
-                </div>
-      
-            </div> -->
+
             {%endfor%}
           </div>
       </div>
