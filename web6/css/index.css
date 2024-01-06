@@ -1,0 +1,65 @@
+/* sec2 */
+.Planet{
+    font-size: 63px;
+    font-weight: 200;
+}
+.Tours{
+    font-size: 20px;
+}
+section{
+    background-color: aliceblue;
+}
+/* footer */
+.footerbg{
+    background-color: rgb(15, 15, 116);
+}
+footer{
+    background-image: url(../img/slide-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+
+}
+.facebook{
+    border-radius: 90px;
+    background-color:rgb(47, 47, 70);
+    padding: 8px;
+}
+.twitter{
+    border-radius: 90px;
+    background-color:skyblue;
+    padding: 8px;
+}
+.linkedin{
+    border-radius: 90px;
+    background-color:navy;
+    padding: 8px;
+}
+.instagram{
+    border-radius: 90px;
+    background-color:rgb(134, 26, 26);
+    padding: 8px;
+}
+.youtube{
+    border-radius: 90px;
+    background-color:rgb(18, 18, 26);
+    padding: 8px;
+}
+.download{
+    border-radius: 95px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+.download:hover{
+    background-color: white;
+    color: blue;
+}
+.our{
+    color: white;
+}
+.Quick{
+    color: white;
+}
