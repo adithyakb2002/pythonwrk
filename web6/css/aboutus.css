@@ -1,0 +1,122 @@
+/* navs */
+.navs{
+    padding-left: 40%;
+    font-size: 23px;
+  }
+  /* sec1 */
+  .aboutbgimg{
+    background-image: url(../img/slide-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 13%;
+    padding-bottom: 13%;
+  
+  }
+  .crafting{
+    font-size: 55px;
+    font-weight: 500;
+    color:whitesmoke;
+    font-style:inherit;
+  }
+
+  /* sec2 */
+  .Passport{
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .adventures{
+    font-size: 15px;
+  }
+
+/* sec3 */
+.Planet{
+    font-size: 50px;
+    font-weight: 100;
+}
+.Tours{
+    font-size: 20px;
+}
+section{
+    background-color: aliceblue;
+}
+.aboutimg{
+    width: 80%;
+    height: 80%;
+}
+
+.Choose{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+.footerbg{
+    background-color: rgb(15, 15, 116);
+}
+footer{
+/* background-color:#070606; */
+opacity: 0.8;
+}
+.footerimg{
+  background-image: url(../img/slide-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 10;
+
+}
+.facebook{
+    border-radius: 90px;
+    background-color:rgb(47, 47, 70);
+    padding: 8px;
+}
+.twitter{
+    border-radius: 90px;
+    background-color:skyblue;
+    padding: 8px;
+}
+.linkedin{
+    border-radius: 90px;
+    background-color:navy;
+    padding: 8px;
+}
+.instagram{
+    border-radius: 90px;
+    background-color:rgb(134, 26, 26);
+    padding: 8px;
+}
+.youtube{
+    border-radius: 90px;
+    background-color:rgb(18, 18, 26);
+    padding: 8px;
+}
+.download{
+    border-radius: 95px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+.download:hover{
+    background-color: white;
+    color: blue;
+}
+.our{
+    color: white;
+}
+.Quick{
+    color: white;
+}
