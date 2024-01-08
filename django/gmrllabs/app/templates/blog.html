@@ -99,12 +99,16 @@
             {% for i in obj %}
           <div class="col-lg-4 me-2 p-5 mb-5 bgimg">
               <div>
-                  <figure ><img  class="w-100 welcome" src="{{i.image.url}}"/>
+                <a href="{% url 'subblog' i.id %}">
+
+                  <figure >
+                    <img  class="w-100 welcome" src="{{i.image.url}}"/>
                     <p class="Package">
                       {{i.description}}
                       <i class="fa fa-chevron-right bulletts mt-3"></i>
                      </p>  
-                  </figure>                                                               
+                  </figure> 
+                  </a>                                                              
               </div>
               <div class="overlay">
                 <a class="icon">

@@ -93,46 +93,29 @@
     </div>
     <!-- about2 -->
 
-    <div class="container mb-5">
-        <div class="row mb-5 pb-5">
-          <div class="hover01 column  mt-5 pt-5 mb-5">
-            {% for i in obj %}
-          <div class="col-lg-4 me-2 p-5 mb-5 bgimg">
-              <div>
-                  <figure ><img  class="w-100 welcome" src="{{i.image.url}}"/>
-                    <p class="Package">
-                      {{i.description}}
-                      <i class="fa fa-chevron-right bulletts mt-3"></i>
-                     </p>  
-                  </figure>                                                               
-              </div>
-              <div class="overlay">
-                <a class="icon">
-                  <i class="fa fa-chain" style="font-size:36px;"></i>
-                </a>
-                </div>
-          </div>
-<!--       
-          <div class="col-lg ms-5 p-5 me-5">
-            <div>
-              <figure><img class="w-100 welcome" src="{% static 'img/banner-02.jpg' %}" /><p class="Package">Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized Medicine<i class="fa fa-chevron-right bulletts mt-3"></i> </p></figure>
-            </div>
-              <div class="overlay">
-                <a class="icon">
-                  <i class="fa fa-chain" style="font-size:36px;"></i>
-                </a>
-                </div>
+    <div class="container mt-5">
+      <div class="row">
+        {% for i in obj %}
+        <div class="col-lg-9">
+          <h5>{{i.heading1}}</h5>
+          <p>{{i.paragraph1}}</p>
+          <h5>{{i.heading2}}</h5>
+          <p>{{i.paragraph2}}</p>
+          <h5>{{i.heading3}}</h5>
+          <p>{{i.paragraph3}}</p>
+    
+    
+        </div>
+        <div class="col-lg-3"><img src="{{i.image.url}}" alt="">
+          <h5>Recent Posts</h5>
+          <p><i class="fa fa-circle "></i>Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized Medicine</p>
+          <p><i class="fa fa-circle "></i>Unlocking the Power of Genes: Exploring the Impact of Molecular Biology on Personalized Medicine</p>
       
-            </div> -->
-            {%endfor%}
-          </div>
+        </div>
+      {% endfor %}
       </div>
-      
-      </div>
-      <!-- <div class="container mb-5 pb-5 mt-5 pt-5">
-      
-      </div>    -->
- <!-- footer -->
+    </div>
+     <!-- footer -->
 <footer>
   <div class="container-fluid ">
     <div class="row smallsec">

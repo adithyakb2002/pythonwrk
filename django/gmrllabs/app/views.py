@@ -107,8 +107,13 @@ def ayushsilverplan(request,id):
 
 
 
-def subblog(request):
-    return render(request,'subblog.html')
+def subblog(request,id):
+    context={}
+
+    obj=Sub_blog.objects.filter(blog=id)
+    context['obj']=obj
+    return render(request,'subblog.html',context)
+
 
 
 # Create your views here.

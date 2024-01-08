@@ -55,3 +55,13 @@ class Ayushsilverplan(models.Model):
 
       image=models.ImageField(upload_to='img')
       package=models.ForeignKey(Packages,on_delete=models.CASCADE)
+
+
+class Sub_blog(models.Model):
+      image=models.ImageField(upload_to='img')
+      heading1=models.CharField(max_length=255)
+      heading2=models.CharField(max_length=255)
+      heading3=models.CharField(max_length=255)
+      paragraph2=models.CharField(max_length=255)
+      paragraph3=models.CharField(max_length=255)
+      blog=models.ForeignKey(Blog,on_delete=models.CASCADE)

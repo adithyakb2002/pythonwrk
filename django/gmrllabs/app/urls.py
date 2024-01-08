@@ -14,7 +14,7 @@ urlpatterns = [
        path('bookanappointment',views.bookanappointment,name='bookanappointment'),
        path('test',views.test,name='test'),
        path('ayushsilverplan/<int:id>/',views.ayushsilverplan,name='ayushsilverplan'),
-       path('subblog',views.subblog,name='subblog'),
+       path('subblog/<int:id>/',views.subblog,name='subblog'),
 
 ]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
 
