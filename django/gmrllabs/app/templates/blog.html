@@ -71,10 +71,10 @@
       </div>
       </div>
     <!-- about1 -->
-    <div class="container-fluid">
+    <div class="container-fluid mt-5 pt-5">
         <div class="row demo">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  Health ">
-                <h2 class="Labs me-5">Blog</h2>
+                <h2 class="Labs ">Blog</h2>
                 <div class="ms-5 ps-5 lab ">
                     <p class="ms-5 ps-5">GMRL Labs: Tripunithura's hub for affordable Health Check Ups</p>
                     <p class="ms-5  ps-5">ith cutting-edge analyzers, prioritizing your well-being</p>
@@ -97,9 +97,9 @@
         <div class="row mb-5 pb-5">
           <div class="hover01 column  mt-5 pt-5 mb-5">
             {% for i in obj %}
-          <div class="col-lg-4 me-2 p-5 mb-5 bgimg">
+          <div class="col-lg-4 ms-5 p-5 mb-5 bgimg">
               <div>
-                <a href="{% url 'subblog' i.id %}">
+                <a class="linking" href="{% url 'subblog' i.id %}">
 
                   <figure >
                     <img  class="w-100 welcome" src="{{i.image.url}}"/>

@@ -38,7 +38,7 @@ def department(request):
 def blog(request):
     context={}
 
-    obj=Packages.objects.all()
+    obj=Blog.objects.all()
     context['obj']=obj
     return render(request,'blog.html',context)
 

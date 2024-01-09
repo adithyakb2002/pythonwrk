@@ -1,3 +1,6 @@
+body{
+   overflow-x: hidden;
+}
 .heading{
     font-size:50px ; 
     /* padding-bottom: 10px; */
@@ -615,9 +618,11 @@ footer{
    background-color: rgb(37, 65, 90);
    /* padding: 20px; */
    /* /* padding-left: 35px; */
-   padding-right: 26px; 
+   padding-right: 28px; 
    top: 40px;
 }
 .welcome{
    bottom: 20px;
+}
+.pkgimg{
 }

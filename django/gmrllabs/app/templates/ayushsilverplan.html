@@ -95,7 +95,7 @@
 <div class="container ">
     <div class="row">
       {% for i in plan %}
-        <div class="col-lg-9 mt-5">
+        <div class="col-lg-9 mt-5 ">
             <h2 class="Executive me-5 ">{{i.name}}</h2>
             <p><i class="fa fa-circle "></i>{{i.t1}}</p>
             <p><i class="fa fa-circle "></i>{{i.t2}}</p>
@@ -108,11 +108,11 @@
             
          <p>Note: Fasting Sample is Preferred</p>
         </div>
-        <div class="col-lg-3 mt-5 pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-6  col-9 mt-5 pt-5">
             <button class="money mb-3">From:${{i.cost}}</button>
             <img src="{{i.image.url}}" alt="">
         </div>
-        {%endfor%}
+        {% endfor %}
     </div>
 </div>
 <!-- ourpackage 3 -->
@@ -129,7 +129,7 @@
           <div class="row">
             <div class="hover01 column mt-5 pt-5 mb-5 ">
 
-            <div class="col-lg-4 bgimg">
+            <div class="col-lg-4 ms-4 bgimg">
               <figure>
                 <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">
                 <h5 class="Package ">Executive Package <i class="fa fa-chevron-right bulletts mt-3"></i> </h5>  
@@ -160,7 +160,7 @@
           <div class="row">
             <div class="hover01 column  mt-5 pt-5 mb-5">
 
-            <div class="col-lg-4 bgimg">
+            <div class="col-lg-4 ms-4 bgimg">
               <a class="linking" href="../html/ayushgeneral.html">
               <figure>
                 <img class="w-100 welcome"  src="{% static 'img/bloodtest.png' %}" alt="">

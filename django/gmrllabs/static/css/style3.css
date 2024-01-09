@@ -1,8 +1,9 @@
-/* body {
-    margin: 0 auto;
-    width: 500px;
-  } */
   
+  /* gallery */
+  body{
+    overflow-x: hidden;
+ }
+ 
   .direction-aware-hover {
     background: #DDD;
     display: inline-block;
