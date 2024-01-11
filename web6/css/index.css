@@ -18,7 +18,10 @@
     border-left: 1px solid whitesmoke;
     color: whitesmoke;
 }
-
+.local{
+  padding-bottom: 20%;
+  padding-top: 20%;
+}
 /* sec3 */
 .Planet{
     font-size: 60px;
@@ -126,8 +129,9 @@ section{
   color: white;
 }
 .Upcoming{
-  font-size: 65px;
+  font-size: 58px;
   font-weight: 400;
+  
 }
 /* footer */
 .footerbg{
@@ -186,4 +190,8 @@ opacity: 0.8;
 }
 .Quick{
     color: white;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
 }

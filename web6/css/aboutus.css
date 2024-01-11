@@ -50,18 +50,6 @@ section{
     font-weight: 400;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
   /* footer */
 .footerbg{
     background-color: rgb(15, 15, 116);
@@ -120,3 +108,7 @@ opacity: 0.8;
 .Quick{
     color: white;
 }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+  }

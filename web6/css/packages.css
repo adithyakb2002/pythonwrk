@@ -1,12 +1,16 @@
 .wrapper{
     position: relative;
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
     background: radial-gradient(#4768ad 50%, #6262ee 100%);
     overflow: hidden;
     /* cursor: pointer; */
   }
-  
+  .nav-link{
+    border-radius: 23px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+  }
   
   .wrapper img,.clo:hover {
     transform: scale(1.3);
@@ -81,3 +85,61 @@
   a .Ayush{
     text-decoration: none;
   }
+  /* subpackage */
+  .packs{
+   background-color: aliceblue;
+  }
+.box{
+  border: 1px solid wheat;
+}
+.bos{
+  border-right: 1px solid black;
+  background-color:whitesmoke;
+}
+.best{
+  background-color:whitesmoke;
+
+}
+
+
+/* events */
+.eventimg{
+  width: 100%;
+}
+.recent{
+  background-color: darkblue;
+  color: whitesmoke;
+}
+.lectus{
+  font-size: 35px;
+}
+/* .carouselevent */
+.d-block{
+  width: 100%;
+  height: 100%;
+}
+.kerala{
+  border: 1px solid wheat;
+}
+.boxex{
+  border: 1px solid wheat;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.boxe{
+  border-bottom: 1px solid wheat;
+}
+.unknown{
+  font-size: 20px;
+}
+.printing{
+  font-size: 20px;
+  background-color: aliceblue;
+}
+.list{
+  color: blue;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
