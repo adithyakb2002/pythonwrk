@@ -47,8 +47,8 @@ def contactus(request):
         if request.POST:
             details=Contact.objects.create(name=name,email=email,phone=phone,message=message,subject=subject)
             details.save()
-            # print(details)
-            return  redirect('contactus')
+        #     # print(details)
+        #     return  redirect('contactus')
     return render(request,'contactus.html')
 
 

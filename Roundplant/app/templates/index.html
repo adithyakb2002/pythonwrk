@@ -25,7 +25,7 @@
       </button>
       <div class="collapse navbar-collapse navs" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link " aria-current="page" href="{%url 'aboutus' %}">About us</a>
+          <a class="nav-link " aria-current="page" href="{% url 'aboutus' %}">About us</a>
           <a class="nav-link" href="{%url 'packages' %}">Packages</a>
           <a class="nav-link" href="{%url 'newsevents' %}">NewsEvents</a>
           <a class="nav-link " href="{%url 'gallery' %}">Gallery</a>
@@ -351,7 +351,7 @@
             <input type="phone" class="form-control " placeholder="phone" aria-label="First name" name='phone' required>
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-12 mb-3  ">
-            <textarea name="message mb-4 " id="" cols="36 " rows="3" placeholder="message" required></textarea>
+            <textarea name="message" mb-4  id="" cols="36 " rows="3" placeholder="message" required></textarea>
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
             <button type="submit " class="form-control sumbit" placeholder="" >Submit</button>

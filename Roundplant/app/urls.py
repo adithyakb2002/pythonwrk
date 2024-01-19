@@ -5,7 +5,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('',views.index,name='index'),
-    
     path('aboutus',views.aboutus,name='aboutus'),
     path('packages',views.packages,name='packages'),
     path('newsevents',views.newsevents,name='newsevents'),
@@ -17,7 +16,7 @@ urlpatterns = [
 
 
 
-]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+] +static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:
     urlpatterns +=static(settings.MEDIA_URL,document_root =settings.MEDIA_ROOT)
